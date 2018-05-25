@@ -1,0 +1,22 @@
+<div class="row mt-5">
+  <div class="col-md-3 col-md-offset-1 mb-4"  *ngFor="let wine of wines">
+    <mat-card>
+      
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>{{wine.name}}</mat-card-title>
+          <mat-card-subtitle>{{wine.year}}</mat-card-subtitle>
+        </mat-card-header>
+        <div class="text-center mb-3"><img [src]="getWineImage(wine.id)" height="300" width="88"></div>
+        <mat-card-content>
+          <p style="height: 85px; word-break: break-all">
+            {{ (wine.description.length > 120 ) ? ( wine.description | slice:0:120 )+'...' : wine.description}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions class="text-center">
+          <button mat-icon-button (click)="WineDialog(wine.id)"><i style="font-size: 18px;" class="fa fa-eye" aria-hidden="true"></i></button>
+          <button mat-icon-button (click)="deleteWineDialogConfirmation(wine.id)"><i style="font-size: 18px;" class="fa fa-trash-o" aria-hidden="true"></i></button>
+        </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

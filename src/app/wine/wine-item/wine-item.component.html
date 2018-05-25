@@ -1,0 +1,27 @@
+<mat-card class="wine-card">
+    <mat-card-header>
+      <mat-card-title>{{wine.name}}</mat-card-title>
+      <mat-card-subtitle>{{wine.region}} {{wine.year}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content fxLayout="row" fxLayoutAlign="start center">
+        <div class="text-center mb-3"><img [src]="getWineImage(wine.id)" height="300" width="88"></div>
+      <div fxLayout="column">
+        <p>
+          {{wine.description}}
+        </p>
+        <div fxLayout="column" fxLayoutWrap fxLayoutGap="10px">
+          <div>
+            <b>Rating:</b> {{wine.rating}}
+            <!-- <mat-icon style="color: gold">star_rate</mat-icon> -->
+          </div>
+          <div>
+            <b>Price:</b> {{wine.price | currency:'EUR':true}}
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions class="text-center">
+        <button mat-icon-button><i class="fa fa-pencil" aria-hidden="true"></i></button>
+      <!-- <button md-mini-fab ><mat-icon>delete</mat-icon></button> -->
+    </mat-card-actions>
+  </mat-card>
