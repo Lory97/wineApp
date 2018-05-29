@@ -18,12 +18,14 @@ import { WineItemComponent } from './wine/wine-item/wine-item.component';
 import { WineApiService } from './wine/wine-api.service';
 import { WineAddFormComponent } from './wine/wine-add-form/wine-add-form.component';
 import { WineSearchFormComponent } from './wine/wine-search-form/wine-search-form.component';
+import { WineEditFormComponent } from './wine/wine-edit-form/wine-edit-form.component';
 
 const appRoutes: Routes = [
   { path: 'wines',     component: WinesListComponent },
   { path: 'wines/:id',  component: WineItemComponent },
   { path: 'wines/add', component : WineAddFormComponent },
   { path: 'wines/delete/:id', component : DeleteWineDialogComponent},
+  { path : 'wines/edit/:id',component : WineEditFormComponent },
   { path: '',   redirectTo: '/wines', pathMatch: 'full' },
   ];
 
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     WineItemComponent,
     WineAddFormComponent,
     DeleteWineDialogComponent,
-    WineSearchFormComponent
+    WineSearchFormComponent,
+    WineEditFormComponent
   ],
   imports: [
     BrowserModule,

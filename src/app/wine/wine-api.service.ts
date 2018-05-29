@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Wine } from './wine';
 import { Observable, Subject } from 'rxjs';
+import { filter } from 'rxjs/operators';
 
 const PARAM_NAME_SKIP = 'skip';
 const PARAM_NAME_LIMIT = 'limit';
@@ -20,6 +21,9 @@ export class WineApiService {
   private winesUrl = 'api/wines';
   public created$ : Subject<Wine> = new Subject<Wine>();
   public removed$ : Subject<number> = new Subject<number>();
+  public search$ : Subject<Array<Wine>> = new Subject<Array<Wine>>();
+  public updated$ : Subject<Wine> = new Subject<Wine>();
+  private wines : Array<Wine>;
   
 
 
@@ -28,7 +32,10 @@ export class WineApiService {
   getWines() : Promise<Wine[]>{
     return this.http.get(`${BASE_API_URL}/${this.winesUrl}`)
       .toPromise()
-      .then(response => response['items'] as Wine[])
+      .then(response => {
+        this.wines = response['items'];
+        return response['items'] as Wine[];
+      })
       .catch(this.handleError);
   }
 
@@ -41,6 +48,7 @@ export class WineApiService {
       .toPromise()
       .then(response => {
         this.created$.next(wine);
+        this.wines.push(wine);
         return response as Wine;
       })
       .catch(this.handleError);
@@ -51,10 +59,42 @@ export class WineApiService {
       .toPromise()
       .then(response => {
         this.removed$.next(wine.id);
+        this.wines = this.wines.filter(filtre => filtre.id != wine.id)
         return true;
       })
       .catch(this.handleError);
   };
+
+
+  public update(wine: Wine): Promise<Wine> {
+    return this.http.put(`${BASE_API_URL}/${this.winesUrl}/${wine.id}`, wine)
+      .toPromise()
+      .then(response => {
+        this.updated$.next(wine);
+        return response as Wine;
+      })
+      .catch(this.handleError);
+  };
+
+
+  public searchWine(terms:Array<string>):Array<Wine>{
+    let filtredWine:Array<Wine> = new Array<Wine>();
+
+    terms.forEach(
+       term =>{ 
+        let tmpList = this.wines.filter( wine => wine.name.toLowerCase().includes(term.toLowerCase()) || wine.description.toLowerCase().includes(term.toLowerCase()) )
+
+        //let a = new Set(filtredWine);
+        let b = new Set(tmpList);
+        let intersection = new Set(
+            [...filtredWine].filter(x => b.has(x)));
+        //console.log(intersection);
+        if(intersection.size == 0) filtredWine = [...filtredWine,...tmpList]  
+       })
+    
+    this.search$.next(filtredWine);
+    return filtredWine;
+  }
 
   /**
    * query on server

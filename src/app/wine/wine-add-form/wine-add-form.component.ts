@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { WineApiService } from '../wine-api.service';
 import { Wine } from '../wine';
@@ -23,21 +23,26 @@ export class WineAddFormComponent implements OnInit {
   ngOnInit() {
     this.form = this.formBuilder.group({
         id : -1,
-        name : '',
-        year : 0,
+        name : ['',Validators.required],
+        year : [0,Validators.required],
         grapes : '',
         country : '',
         region : '',
         description : '',
         picture : 'generic.png',
         rating : 0,
-        price : 0,
+        price : [0,Validators.required],
     })
   }
 
   createwine(){
-    this.wineApi.save(this.form.value as Wine).then(data => {this.newWine = data; console.log(this.newWine); });
-    this.dialogRef.close();
+      if(this.form.valid){
+      this.wineApi.save(this.form.value as Wine).then(data => {
+        this.newWine = data; 
+        console.log(this.newWine); 
+        this.dialogRef.close(); 
+      });
+    }
   }
 
 }

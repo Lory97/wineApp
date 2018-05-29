@@ -1,7 +1,8 @@
 import { Component, OnInit , Inject } from '@angular/core';
-import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import { MatDialogRef, MAT_DIALOG_DATA, MatDialog } from '@angular/material';
 import { WineApiService } from '../wine-api.service';
 import { Wine } from '../wine';
+import { WineEditFormComponent } from '../wine-edit-form/wine-edit-form.component';
 
 @Component({
   selector: 'app-wine-item',
@@ -11,7 +12,7 @@ import { Wine } from '../wine';
 export class WineItemComponent implements OnInit {
   wine : Wine;
 
-  constructor(public dialogRef: MatDialogRef<WineItemComponent>,
+  constructor(public dialog: MatDialog,public dialogRef: MatDialogRef<WineItemComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any, private wineApi : WineApiService) { }
 
   ngOnInit() {
@@ -21,6 +22,13 @@ export class WineItemComponent implements OnInit {
 
   getWineImage(wineID:number){
     return this.wineApi.getImageSourceUrl(wineID);
+  }
+
+  editWineDialog(wineId:number){
+     this.dialogRef.close();
+     let dialogRef = this.dialog.open(WineEditFormComponent, {
+       width: '400px',
+       data: this.wine})
   }
 
 }

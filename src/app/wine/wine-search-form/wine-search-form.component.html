@@ -1,8 +1,8 @@
 <mat-toolbar color="primary" class="fixed-top">
 <nav class="navbar justify-content-between col-md-12">
-  <a class="navbar-brand">Ma Cave</a>
+  <a routerLink="/" class="navbar-brand">Ma Cave</a>
   <form #searchForm="ngForm" class="form-inline" (ngSubmit)="searchWine(searchForm.value)">
-    <input class="form-control mr-sm-2" ngModel name="term" type="search" placeholder="Search" aria-label="Search">
+    <input class="form-control mr-sm-2" (keyup)="searchWine(searchForm.value)" ngModel name="term" type="search" placeholder="Search" aria-label="Search">
     <button mat-icon-button  type="submit"><i class="fa fa-search" aria-hidden="true" style="font-size: 20px"></i></button>
   </form>
 </nav>

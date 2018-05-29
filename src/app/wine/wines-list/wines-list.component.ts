@@ -32,6 +32,33 @@ export class WinesListComponent implements OnInit {
         }
       });
 
+
+     this.wineApiService.updated$.subscribe(
+      (updatedWine: Wine) => {
+        if (this.wines) {
+          console.info(`updated wine ${updatedWine.id} in list`);
+          const index = this.wines.findIndex(wine => wine.id === updatedWine.id);
+          if (index > -1) {
+            this.wines[index] = updatedWine;
+          }
+        }
+      }
+    );
+
+    this.wineApiService.search$.subscribe(
+      data =>{
+        if(data.length > 0){
+          this.wines = data;
+        }else{
+          console.log('no term in search, load initial wines list')
+          this.wineApiService.getWines().then(response => {
+            this.wines = response;
+          });
+        }
+      }
+
+    )
+
     this.wineApiService.getWines().then(response => {
       this.wines = response;
       console.log(this.wines);
@@ -83,8 +110,11 @@ export class DeleteWineDialogComponent {
   }
 
   deleteWine(){
-    this.wineApiService.delete(this.data).then(response => console.log(response));
-    this.dialogRef.close();
+    this.wineApiService.delete(this.data).then(response => { 
+      console.log(response);
+      this.dialogRef.close();
+    });
+    
   }
 
 }
