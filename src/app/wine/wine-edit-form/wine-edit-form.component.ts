@@ -1,8 +1,12 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { WineApiService } from '../wine-api.service';
 import { Wine } from '../wine';
+import { CountriesService } from '../../country/countries.service';
+import { Country } from '../../country/country';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-wine-edit-form',
@@ -13,11 +17,20 @@ export class WineEditFormComponent implements OnInit {
 
   form : FormGroup;
   currentWine : Wine;
+  countries : Array<Country>;
+  countryControl = new FormControl();
+  filteredOptions: Observable<Country[]>;
 
   constructor(private formBuilder : FormBuilder, public dialogRef: MatDialogRef<WineEditFormComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: any,private wineApi : WineApiService) { }
+    @Inject(MAT_DIALOG_DATA) public data: any,private wineApi : WineApiService, private countriesService : CountriesService) { }
 
   ngOnInit() {
+
+    this.countriesService.getAll().then(data => {
+      this.countries = data;
+      //console.log(this.countries);
+    })
+
     this.form = this.formBuilder.group({
       id : this.data.id,
       name : [this.data.name, Validators.required],
@@ -31,6 +44,19 @@ export class WineEditFormComponent implements OnInit {
       price : [this.data.price, Validators.required]
   })
 
+  this.countryControl.setValue(this.data.country);
+
+  this.filteredOptions = this.countryControl.valueChanges
+    .pipe(
+      map(value => value),
+      map(countryName => countryName ? this.filter(countryName) : this.countries.slice())
+    );
+
+  }
+
+  filter(countryName: string): Country[] {
+    return this.countries.filter(country =>
+      country.code.toLowerCase().indexOf(countryName.toLowerCase()) === 0);
   }
 
   updateWine(){
@@ -39,10 +65,11 @@ export class WineEditFormComponent implements OnInit {
       this.currentWine = new Wine();
       this.currentWine.id = this.form.value.id;
       this.currentWine.name = this.form.value.name;
-      this.currentWine.country = this.form.value.country ? this.form.value.country.code : '';
+      this.currentWine.country = this.countryControl.value;
       this.currentWine.region = this.form.value.region;
       this.currentWine.description = this.form.value.description;
       this.currentWine.price = this.form.value.price;
+      this.currentWine.rating = this.form.value.rating;
       this.currentWine.year = this.form.value.year;
 
       this.wineApi.update(this.currentWine).then( result =>{ 
@@ -51,6 +78,11 @@ export class WineEditFormComponent implements OnInit {
       })
     }
 
+  }
+
+  cancel(e: Event): void {
+    e.preventDefault();
+    this.dialogRef.close();
   }
 
 }

@@ -1,4 +1,4 @@
-<mat-card class="wine-card">
+<mat-card class="wine-card" *ngIf="wine">
     <mat-card-header>
       <mat-card-title>{{wine.name}}</mat-card-title>
       <mat-card-subtitle>{{wine.region}} {{wine.year}}</mat-card-subtitle>
@@ -22,6 +22,5 @@
     </mat-card-content>
     <mat-card-actions class="text-center">
         <button mat-icon-button (click)="editWineDialog(wine.id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-      <!-- <button md-mini-fab ><mat-icon>delete</mat-icon></button> -->
     </mat-card-actions>
   </mat-card>

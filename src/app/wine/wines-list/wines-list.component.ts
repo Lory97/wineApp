@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { WineApiService } from '../wine-api.service';
 import { Wine } from '../wine';
-import { WineItemComponent } from '../wine-item/wine-item.component';
+import { WineItemDialogComponent } from '../wine-item';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 @Component({
@@ -70,8 +70,8 @@ export class WinesListComponent implements OnInit {
   }
 
   WineDialog(wineId:number): void {
-    let dialogRef = this.dialog.open(WineItemComponent, {
-      width: '400px',
+    let dialogRef = this.dialog.open(WineItemDialogComponent, {
+      width: '600px',
       data: this.wines.find(wine => wine.id == wineId)
     });
  

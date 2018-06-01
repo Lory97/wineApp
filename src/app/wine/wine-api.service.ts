@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Wine } from './wine';
 import { Observable, Subject } from 'rxjs';
@@ -8,7 +8,6 @@ const PARAM_NAME_SKIP = 'skip';
 const PARAM_NAME_LIMIT = 'limit';
 const PARAM_NAME_SORT = 'sort';
 const PARAM_NAME_FILTER = 'q';
-const BASE_API_URL = 'http://localhost:4000';
 
 export class WinesQueryResponse {
   totalCount: number;
@@ -18,7 +17,7 @@ export class WinesQueryResponse {
 
 @Injectable()
 export class WineApiService {
-  private winesUrl = 'api/wines';
+  private winesUrl = 'wines';
   public created$ : Subject<Wine> = new Subject<Wine>();
   public removed$ : Subject<number> = new Subject<number>();
   public search$ : Subject<Array<Wine>> = new Subject<Array<Wine>>();
@@ -27,10 +26,10 @@ export class WineApiService {
   
 
 
-  constructor(private http : HttpClient) {}
+  constructor(private http : HttpClient, @Inject('BASE_API') private baseApi: string) {}
 
   getWines() : Promise<Wine[]>{
-    return this.http.get(`${BASE_API_URL}/${this.winesUrl}`)
+    return this.http.get(`${this.baseApi}/${this.winesUrl}`)
       .toPromise()
       .then(response => {
         this.wines = response['items'];
@@ -40,11 +39,21 @@ export class WineApiService {
   }
 
   getImageSourceUrl(wineId: number): string {
-    return `${BASE_API_URL}/${this.winesUrl}/${wineId}/picture`;
+    return `${this.baseApi}/${this.winesUrl}/${wineId}/picture`;
   }
 
+
+  public get(wineId: number): Promise<Wine> {
+
+    return this.http.get(`${this.baseApi}/${this.winesUrl}/${wineId}`)
+      .toPromise()
+      .then(response => {
+        return response as Wine;
+      })
+      .catch(this.handleError);
+  };
   public save(wine: Wine): Promise<Wine> {
-    return this.http.post(`${BASE_API_URL}/${this.winesUrl}`, wine)
+    return this.http.post(`${this.baseApi}/${this.winesUrl}`, wine)
       .toPromise()
       .then(response => {
         this.created$.next(wine);
@@ -55,7 +64,7 @@ export class WineApiService {
   };
 
   public delete(wine: Wine): Promise<boolean> {
-    return this.http.delete(`${BASE_API_URL}/${this.winesUrl}/${wine.id}`)
+    return this.http.delete(`${this.baseApi}/${this.winesUrl}/${wine.id}`)
       .toPromise()
       .then(response => {
         this.removed$.next(wine.id);
@@ -67,7 +76,7 @@ export class WineApiService {
 
 
   public update(wine: Wine): Promise<Wine> {
-    return this.http.put(`${BASE_API_URL}/${this.winesUrl}/${wine.id}`, wine)
+    return this.http.put(`${this.baseApi}/${this.winesUrl}/${wine.id}`, wine)
       .toPromise()
       .then(response => {
         this.updated$.next(wine);
@@ -139,7 +148,7 @@ export class WineApiService {
 
     console.log(options);
 
-    return this.http.get(`${BASE_API_URL}/${this.winesUrl}`, options)
+    return this.http.get(`${this.baseApi}/${this.winesUrl}`, options)
       .toPromise()
       .then(response => {
         //this.closeDialog();

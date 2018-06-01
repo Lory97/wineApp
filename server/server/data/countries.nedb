@@ -1,250 +1,250 @@
-{"code":"AFG","en":"Afghanistan","de":"Afghanistan","fr":"Afghanistan","_id":"Q1BcmI2REFF9mkqy"}
-{"code":"ALA","en":"Åland Islands","de":"Åland","fr":"Åland","_id":"NnZhQoQ8qLLQxGxH"}
-{"code":"ALB","en":"Albania","de":"Albanien","fr":"Albanie","_id":"RvcVOTloBoEL1J3a"}
-{"code":"DZA","en":"Algeria","de":"Algerien","fr":"Algérie","_id":"q9hdO4nziJz0SJsN"}
-{"code":"ASM","en":"American Samoa","de":"Amerikanisch-Samoa","fr":"Samoa américaines","_id":"9UAh6hpUdtrkW8Yd"}
-{"code":"AND","en":"Andorra","de":"Andorra","fr":"Andorre","_id":"s64UGLZnNfboYeGP"}
-{"code":"AGO","en":"Angola","de":"Angola","fr":"Angola","_id":"KcULDV2RrF9wRDOw"}
-{"code":"AIA","en":"Anguilla","de":"Anguilla","fr":"Anguilla","_id":"UQFLiJ0RcT02NArl"}
-{"code":"ATA","en":"Antarctica","de":"Antarktika","fr":"Antarctique","_id":"kKBcpXIqBQtUuZhQ"}
-{"code":"ATG","en":"Antigua and Barbuda","de":"Antigua und Barbuda","fr":"Antigua-et-Barbuda","_id":"cpYpV7PE4An29fNC"}
-{"code":"ARG","en":"Argentina","de":"Argentinien","fr":"Argentine","_id":"QhqWKMPzuHn2EpWo"}
-{"code":"ARM","en":"Armenia","de":"Armenien","fr":"Arménie","_id":"RPpIq3jivD7NEaHd"}
-{"code":"ABW","en":"Aruba","de":"Aruba","fr":"Aruba","_id":"dEIAxgvI2OS0hGbU"}
-{"code":"AUS","en":"Australia","de":"Australien","fr":"Australie","_id":"xwQuttTJgMyougP1"}
-{"code":"AUT","en":"Austria","de":"Österreich","fr":"Autriche","_id":"K7mHc9aKg4hn7gO4"}
-{"code":"AZE","en":"Azerbaijan","de":"Aserbaidschan","fr":"Azerbaïdjan","_id":"irRhpyF2iCbA84q2"}
-{"code":"BHS","en":"The Bahamas","de":"Bahamas","fr":"Bahamas","_id":"UaFsjSeDnQlLaZBR"}
-{"code":"BHR","en":"Bahrain","de":"Bahrain","fr":"Bahreïn","_id":"MWlMqvlL4Yh842QK"}
-{"code":"BGD","en":"Bangladesh","de":"Bangladesch","fr":"Bangladesh","_id":"uwlSMksQxg0SdMpi"}
-{"code":"BRB","en":"Barbados","de":"Barbados","fr":"Barbade","_id":"3MU079iixp6LIZDC"}
-{"code":"BLR","en":"Belarus","de":"Weißrussland","fr":"Biélorussie","_id":"fGV1bX4gWFKjtyU5"}
-{"code":"BEL","en":"Belgium","de":"Belgien","fr":"Belgique","_id":"Vkqe3m3yRXCb7e5s"}
-{"code":"BLZ","en":"Belize","de":"Belize","fr":"Belize","_id":"iJtFcCRy1N46uRCY"}
-{"code":"BEN","en":"Benin","de":"Benin","fr":"Bénin","_id":"b7DHfAYupytEluBl"}
-{"code":"BMU","en":"Bermuda","de":"Bermuda","fr":"Bermudes","_id":"HzRN3QtqNOCkRGFg"}
-{"code":"BTN","en":"Bhutan","de":"Bhutan","fr":"Bhoutan","_id":"toWxQ5qXxyNXfY2t"}
-{"code":"BOL","en":"Bolivia","de":"Bolivien","fr":"Bolivie","_id":"M4lxoYncSjEn7pTc"}
-{"code":"BES","en":"Bonaire","de":"Bonaire","fr":"Bonaire","_id":"ySn8y4GZPxHk8JCB"}
-{"code":"BIH","en":"Bosnia and Herzegovina","de":"Bosnien und Herzegowina","fr":"Bosnie-Herzégovine","_id":"Hth2DsTFNP1eQER8"}
-{"code":"BWA","en":"Botswana","de":"Botswana","fr":"Botswana","_id":"uxHT3iv7dvnK5mCM"}
-{"code":"BVT","en":"Bouvet Island","de":"Bouvetinsel","fr":"Île Bouvet","_id":"0zeQujfhGGvAgvhX"}
-{"code":"BRA","en":"Brazil","de":"Brasilien","fr":"Brésil","_id":"WSKN9VUYR1LQ4vJA"}
-{"code":"IOT","en":"British Indian Ocean Territory","de":"Britisches Territorium im Indischen Ozean","fr":"Territoire britannique de l'océan Indien","_id":"H4OUzbCV9GoByMTF"}
-{"code":"UMI","en":"United States Minor Outlying Islands","de":"Kleinere Inselbesitzungen der Vereinigten Staaten","fr":"Îles mineures éloignées des États-Unis","_id":"k3phE9lRLnhPe2Ha"}
-{"code":"VGB","en":"Virgin Islands (British)","de":"Britische Jungferninseln","fr":"Îles Vierges britanniques","_id":"7aXzryLTkjfd9F9q"}
-{"code":"VIR","en":"Virgin Islands (U.S.)","de":"Amerikanische Jungferninseln","fr":"Îles Vierges des États-Unis","_id":"LwO3QTZuwEHep25g"}
-{"code":"BRN","en":"Brunei","de":"Brunei","fr":"Brunei","_id":"KHtslEFXx8Y0Ybce"}
-{"code":"BGR","en":"Bulgaria","de":"Bulgarien","fr":"Bulgarie","_id":"E1V5F1OvTl54peZY"}
-{"code":"BFA","en":"Burkina Faso","de":"Burkina Faso","fr":"Burkina Faso","_id":"bdwQM9njPnM4f9UX"}
-{"code":"BDI","en":"Burundi","de":"Burundi","fr":"Burundi","_id":"XFzjwATYIHp7Iw0o"}
-{"code":"KHM","en":"Cambodia","de":"Kambodscha","fr":"Cambodge","_id":"s2AI1rmP8CeNBHYx"}
-{"code":"CMR","en":"Cameroon","de":"Kamerun","fr":"Cameroun","_id":"08HO4dxqo5Ck4zLh"}
-{"code":"CAN","en":"Canada","de":"Kanada","fr":"Canada","_id":"30LiVnb3iwp88OcH"}
-{"code":"CPV","en":"Cape Verde","de":"Kap Verde","fr":"Cap Vert","_id":"QIscaRw3o8scmi7J"}
-{"code":"CYM","en":"Cayman Islands","de":"Kaimaninseln","fr":"Îles Caïmans","_id":"AUALldmBHKoAsJt5"}
-{"code":"CAF","en":"Central African Republic","de":"Zentralafrikanische Republik","fr":"République centrafricaine","_id":"hrKFPeAd6mioYVV0"}
-{"code":"TCD","en":"Chad","de":"Tschad","fr":"Tchad","_id":"Yvs8j4elc7dUUlCK"}
-{"code":"CHL","en":"Chile","de":"Chile","fr":"Chili","_id":"yJy1KttwjGONZ5Hd"}
-{"code":"CHN","en":"China","de":"China","fr":"Chine","_id":"gqO55ZmaKuusgg1C"}
-{"code":"CXR","en":"Christmas Island","de":"Weihnachtsinsel","fr":"Île Christmas","_id":"9wSM8Hdg3wPmrqMX"}
-{"code":"CCK","en":"Cocos (Keeling) Islands","de":"Kokosinseln","fr":"Îles Cocos","_id":"lgsTWtGYerwFWyBh"}
-{"code":"COL","en":"Colombia","de":"Kolumbien","fr":"Colombie","_id":"X5yI3RVhghVKx5p1"}
-{"code":"COM","en":"Comoros","de":"Union der Komoren","fr":"Comores","_id":"n5JbFPaB7oHKXOE1"}
-{"code":"COG","en":"Republic of the Congo","de":"Kongo","fr":"Congo","_id":"BQtIWkXsGPeRxCCI"}
-{"code":"COD","en":"Democratic Republic of the Congo","de":"Kongo (Dem. Rep.)","fr":"Congo (Rép. dém.)","_id":"ZCeGyFM6pf9KcmCk"}
-{"code":"COK","en":"Cook Islands","de":"Cookinseln","fr":"Îles Cook","_id":"9y4NOxK1DErbXXdp"}
-{"code":"CRI","en":"Costa Rica","de":"Costa Rica","fr":"Costa Rica","_id":"fZsqoeKprC2hrMvN"}
-{"code":"HRV","en":"Croatia","de":"Kroatien","fr":"Croatie","_id":"1bl76M3EncCec7gf"}
-{"code":"CUB","en":"Cuba","de":"Kuba","fr":"Cuba","_id":"kdeRA6tJuH6XOWMm"}
-{"code":"CUW","en":"Curaçao","de":"Curaçao","fr":"Curaçao","_id":"qCWEN53ODpx14kdE"}
-{"code":"CYP","en":"Cyprus","de":"Zypern","fr":"Chypre","_id":"3Y0ykRSBprXIN4Na"}
-{"code":"CZE","en":"Czech Republic","de":"Tschechische Republik","fr":"République tchèque","_id":"NORaoZ1dYfppXumy"}
-{"code":"DNK","en":"Denmark","de":"Dänemark","fr":"Danemark","_id":"n0anSABuS16b4z5C"}
-{"code":"DJI","en":"Djibouti","de":"Dschibuti","fr":"Djibouti","_id":"lJ76cJt3Rpa4PiEH"}
-{"code":"DMA","en":"Dominica","de":"Dominica","fr":"Dominique","_id":"rKb4cPunVYGsAXlc"}
-{"code":"DOM","en":"Dominican Republic","de":"Dominikanische Republik","fr":"République dominicaine","_id":"X8VZTDa563i78weW"}
-{"code":"ECU","en":"Ecuador","de":"Ecuador","fr":"Équateur","_id":"MyqlqmPLiEKLxtMc"}
-{"code":"EGY","en":"Egypt","de":"Ägypten","fr":"Égypte","_id":"dgBPbOhWXfJ8jljX"}
-{"code":"SLV","en":"El Salvador","de":"El Salvador","fr":"Salvador","_id":"C9R2yFhVv4Lv8DIN"}
-{"code":"GNQ","en":"Equatorial Guinea","de":"Äquatorial-Guinea","fr":"Guinée-Équatoriale","_id":"YhRxy9PZYXbsSUPw"}
-{"code":"ERI","en":"Eritrea","de":"Eritrea","fr":"Érythrée","_id":"ScnL93wpM9Ygjkop"}
-{"code":"EST","en":"Estonia","de":"Estland","fr":"Estonie","_id":"XQoL0kEdC5ubzN4J"}
-{"code":"ETH","en":"Ethiopia","de":"Äthiopien","fr":"Éthiopie","_id":"Ts0deWYQftXu2caV"}
-{"code":"FLK","en":"Falkland Islands","de":"Falklandinseln","fr":"Îles Malouines","_id":"WWrCt31AeVCQix6B"}
-{"code":"FRO","en":"Faroe Islands","de":"Färöer-Inseln","fr":"Îles Féroé","_id":"orh8DeujhRNvJg92"}
-{"code":"FJI","en":"Fiji","de":"Fidschi","fr":"Fidji","_id":"ugmc9R2ycCoyPjG4"}
-{"code":"FIN","en":"Finland","de":"Finnland","fr":"Finlande","_id":"boNSW0Fi1NZRwZly"}
-{"code":"FRA","en":"France","de":"Frankreich","fr":"France","_id":"edBQ36ug4JnCBHTn"}
-{"code":"GUF","en":"French Guiana","de":"Französisch Guyana","fr":"Guayane","_id":"VgCcOSvcw40TkahW"}
-{"code":"PYF","en":"French Polynesia","de":"Französisch-Polynesien","fr":"Polynésie française","_id":"PxkumjsgDdq5ZpgL"}
-{"code":"ATF","en":"French Southern and Antarctic Lands","de":"Französische Süd- und Antarktisgebiete","fr":"Terres australes et antarctiques françaises","_id":"oJUb8kosAlRjf7t7"}
-{"code":"GAB","en":"Gabon","de":"Gabun","fr":"Gabon","_id":"yR5QnG5DWi05luFo"}
-{"code":"GMB","en":"The Gambia","de":"Gambia","fr":"Gambie","_id":"IEr2yGEyBuC2cAo6"}
-{"code":"GEO","en":"Georgia","de":"Georgien","fr":"Géorgie","_id":"EM3lSQJzMgqtIiQW"}
-{"code":"DEU","en":"Germany","de":"Deutschland","fr":"Allemagne","_id":"e5z6Y91orArdk5jT"}
-{"code":"GHA","en":"Ghana","de":"Ghana","fr":"Ghana","_id":"ldHZSybGMDb5cgZE"}
-{"code":"GIB","en":"Gibraltar","de":"Gibraltar","fr":"Gibraltar","_id":"wpGuLyYDDk1UWZxl"}
-{"code":"GRC","en":"Greece","de":"Griechenland","fr":"Grèce","_id":"gjBZZn4eqodD0vAm"}
-{"code":"GRL","en":"Greenland","de":"Grönland","fr":"Groenland","_id":"mPMBV8MY5QHpYjWS"}
-{"code":"GRD","en":"Grenada","de":"Grenada","fr":"Grenade","_id":"JQnU5H6nLiF9THhI"}
-{"code":"GLP","en":"Guadeloupe","de":"Guadeloupe","fr":"Guadeloupe","_id":"UnI4w5UMYdC4Aioq"}
-{"code":"GUM","en":"Guam","de":"Guam","fr":"Guam","_id":"wnDNur8FMjyjYd6V"}
-{"code":"GTM","en":"Guatemala","de":"Guatemala","fr":"Guatemala","_id":"N1435KVRsdAWuhO4"}
-{"code":"GGY","en":"Guernsey","de":"Guernsey","fr":"Guernesey","_id":"pxhXD9OsEHQlFxoQ"}
-{"code":"GIN","en":"Guinea","de":"Guinea","fr":"Guinée","_id":"fTM4IULeHUmH9AQA"}
-{"code":"GNB","en":"Guinea-Bissau","de":"Guinea-Bissau","fr":"Guinée-Bissau","_id":"csCb3l2gWsJtLWKD"}
-{"code":"GUY","en":"Guyana","de":"Guyana","fr":"Guyane","_id":"U4wO6C8zLAvojvyx"}
-{"code":"HTI","en":"Haiti","de":"Haiti","fr":"Haïti","_id":"P8WmgTewUsIbUyId"}
-{"code":"HMD","en":"Heard Island and McDonald Islands","de":"Heard und die McDonaldinseln","fr":"Îles Heard-et-MacDonald","_id":"Cdf8amwoitooo7HK"}
-{"code":"VAT","en":"Holy See","de":"Heiliger Stuhl","fr":"voir Saint","_id":"55uq2GCnwXnxm4xa"}
-{"code":"HND","en":"Honduras","de":"Honduras","fr":"Honduras","_id":"AbnQAwfiCNPWGK6n"}
-{"code":"HKG","en":"Hong Kong","de":"Hong Kong","fr":"Hong Kong","_id":"S8iTqwTfd5sWkKMm"}
-{"code":"HUN","en":"Hungary","de":"Ungarn","fr":"Hongrie","_id":"yiXw90dJ9r0ZYlDZ"}
-{"code":"ISL","en":"Iceland","de":"Island","fr":"Islande","_id":"FMi5W6TDa97djSTL"}
-{"code":"IND","en":"India","de":"Indien","fr":"Inde","_id":"wHymSImdymY2aSSo"}
-{"code":"IDN","en":"Indonesia","de":"Indonesien","fr":"Indonésie","_id":"yEF0vHh3FAQOsQfk"}
-{"code":"CIV","en":"Ivory Coast","de":"Elfenbeinküste","fr":"Côte d'Ivoire","_id":"AQ3aREIIyGnu50Rb"}
-{"code":"IRN","en":"Iran","de":"Iran","fr":"Iran","_id":"LvdC1XFYQdCUYPsG"}
-{"code":"IRQ","en":"Iraq","de":"Irak","fr":"Irak","_id":"iUnc5e2ATyVYk6Pr"}
-{"code":"IRL","en":"Republic of Ireland","de":"Irland","fr":"Irlande","_id":"kUV5MYGPOMTS24T9"}
-{"code":"IMN","en":"Isle of Man","de":"Insel Man","fr":"Île de Man","_id":"9DPRy5BrSgEueM20"}
-{"code":"ISR","en":"Israel","de":"Israel","fr":"Israël","_id":"OnsFb5GbK1fwgBlc"}
-{"code":"ITA","en":"Italy","de":"Italien","fr":"Italie","_id":"MSA0kwz8jS9jlOK1"}
-{"code":"JAM","en":"Jamaica","de":"Jamaika","fr":"Jamaïque","_id":"OuKxjwLp8vydwdIn"}
-{"code":"JPN","en":"Japan","de":"Japan","fr":"Japon","_id":"ejyFwPzKhHXU0jQn"}
-{"code":"JEY","en":"Jersey","de":"Jersey","fr":"Jersey","_id":"va1jx3ZLd2zrE54G"}
-{"code":"JOR","en":"Jordan","de":"Jordanien","fr":"Jordanie","_id":"zhswepVHb1Ko6hNS"}
-{"code":"KAZ","en":"Kazakhstan","de":"Kasachstan","fr":"Kazakhstan","_id":"RnbkIqoZ0DfjpMPf"}
-{"code":"KEN","en":"Kenya","de":"Kenia","fr":"Kenya","_id":"Ti8uqm5i6e1jZddZ"}
-{"code":"KIR","en":"Kiribati","de":"Kiribati","fr":"Kiribati","_id":"kqyDaQenpEcAAwdr"}
-{"code":"KWT","en":"Kuwait","de":"Kuwait","fr":"Koweït","_id":"ZIHKNQjeUN8TvgyE"}
-{"code":"KGZ","en":"Kyrgyzstan","de":"Kirgisistan","fr":"Kirghizistan","_id":"tGa2mj6dfzZyrcPH"}
-{"code":"LAO","en":"Laos","de":"Laos","fr":"Laos","_id":"TSqgfPU1LjhUpBPP"}
-{"code":"LVA","en":"Latvia","de":"Lettland","fr":"Lettonie","_id":"Mcv9awFsqcYqA5Lh"}
-{"code":"LBN","en":"Lebanon","de":"Libanon","fr":"Liban","_id":"l36xvo7LPp6v9suH"}
-{"code":"LSO","en":"Lesotho","de":"Lesotho","fr":"Lesotho","_id":"nZuR1IQ4HFtFi2fQ"}
-{"code":"LBR","en":"Liberia","de":"Liberia","fr":"Liberia","_id":"0VIuLreUOy4AjZMd"}
-{"code":"LBY","en":"Libya","de":"Libyen","fr":"Libye","_id":"pfTp33m1w2ahJfa8"}
-{"code":"LIE","en":"Liechtenstein","de":"Liechtenstein","fr":"Liechtenstein","_id":"rAGApYBOLBAHhetn"}
-{"code":"LTU","en":"Lithuania","de":"Litauen","fr":"Lituanie","_id":"4GZ7mYc4q0Wifi23"}
-{"code":"LUX","en":"Luxembourg","de":"Luxemburg","fr":"Luxembourg","_id":"TLVMdRumMfOvCFNB"}
-{"code":"MAC","en":"Macau","de":"Macao","fr":"Macao","_id":"U6BsnqpXh5prxR6L"}
-{"code":"MKD","en":"Republic of Macedonia","de":"Mazedonien","fr":"Macédoine","_id":"du6vASyBRwonvEQR"}
-{"code":"MDG","en":"Madagascar","de":"Madagaskar","fr":"Madagascar","_id":"ite1GCQHJJbfsJG4"}
-{"code":"MWI","en":"Malawi","de":"Malawi","fr":"Malawi","_id":"ldZQVkNz3iPpugTf"}
-{"code":"MYS","en":"Malaysia","de":"Malaysia","fr":"Malaisie","_id":"OKfOYscZlJtMQyEI"}
-{"code":"MDV","en":"Maldives","de":"Malediven","fr":"Maldives","_id":"bRRo2iBiWqHDtHDx"}
-{"code":"MLI","en":"Mali","de":"Mali","fr":"Mali","_id":"yC0mTmAuY9N9dP6V"}
-{"code":"MLT","en":"Malta","de":"Malta","fr":"Malte","_id":"fcDJczi3ALWaAup4"}
-{"code":"MHL","en":"Marshall Islands","de":"Marshallinseln","fr":"Îles Marshall","_id":"LfFprzjj40o0Nf1K"}
-{"code":"MTQ","en":"Martinique","de":"Martinique","fr":"Martinique","_id":"46mlaeRnhfPHR4ke"}
-{"code":"MRT","en":"Mauritania","de":"Mauretanien","fr":"Mauritanie","_id":"xQMJErEdcTJoTpFG"}
-{"code":"MUS","en":"Mauritius","de":"Mauritius","fr":"Île Maurice","_id":"9LXIB2Yn6RRuQV0v"}
-{"code":"MYT","en":"Mayotte","de":"Mayotte","fr":"Mayotte","_id":"OtkTqdwM2hMVbhqR"}
-{"code":"MEX","en":"Mexico","de":"Mexiko","fr":"Mexique","_id":"od04VewROPQwm0BE"}
-{"code":"FSM","en":"Federated States of Micronesia","de":"Mikronesien","fr":"Micronésie","_id":"X8iATZGDWbpKJ766"}
-{"code":"MDA","en":"Moldova","de":"Moldawie","fr":"Moldavie","_id":"jbhAn6SInLZt19sK"}
-{"code":"MCO","en":"Monaco","de":"Monaco","fr":"Monaco","_id":"gRwJNHWognMJniZl"}
-{"code":"MNG","en":"Mongolia","de":"Mongolei","fr":"Mongolie","_id":"dIsgTcO4Frx2rRkD"}
-{"code":"MNE","en":"Montenegro","de":"Montenegro","fr":"Monténégro","_id":"cQBNKxwDA4ZDGqo5"}
-{"code":"MSR","en":"Montserrat","de":"Montserrat","fr":"Montserrat","_id":"0YL5UnvOQOWdQqX9"}
-{"code":"MAR","en":"Morocco","de":"Marokko","fr":"Maroc","_id":"18oPgfEVhGlYXmBF"}
-{"code":"MOZ","en":"Mozambique","de":"Mosambik","fr":"Mozambique","_id":"TN85oTcfPXDNB9z9"}
-{"code":"MMR","en":"Myanmar","de":"Myanmar","fr":"Myanmar","_id":"okhdkczyxVkM5qPD"}
-{"code":"NAM","en":"Namibia","de":"Namibia","fr":"Namibie","_id":"qH69uM0z4Oc3UxHn"}
-{"code":"NRU","en":"Nauru","de":"Nauru","fr":"Nauru","_id":"zddbktlwxXGgzdLY"}
-{"code":"NPL","en":"Nepal","de":"Népal","fr":"Népal","_id":"mxFm42npslvHUdM2"}
-{"code":"NLD","en":"Netherlands","de":"Niederlande","fr":"Pays-Bas","_id":"tUm7zuP3bv25NDv1"}
-{"code":"NCL","en":"New Caledonia","de":"Neukaledonien","fr":"Nouvelle-Calédonie","_id":"BFndyOezAravhOSV"}
-{"code":"NZL","en":"New Zealand","de":"Neuseeland","fr":"Nouvelle-Zélande","_id":"oP26PhenO8vFnUYi"}
-{"code":"NIC","en":"Nicaragua","de":"Nicaragua","fr":"Nicaragua","_id":"YAXgrFwhkKNT2HEU"}
-{"code":"NER","en":"Niger","de":"Niger","fr":"Niger","_id":"RzalEs7ITOqAcygI"}
-{"code":"NGA","en":"Nigeria","de":"Nigeria","fr":"Nigéria","_id":"UtxmrKXuv8Rbr09L"}
-{"code":"NIU","en":"Niue","de":"Niue","fr":"Niue","_id":"8ET4wWuPxUPd0FEc"}
-{"code":"NFK","en":"Norfolk Island","de":"Norfolkinsel","fr":"Île de Norfolk","_id":"AdslqBrPyveSlgwB"}
-{"code":"PRK","en":"North Korea","de":"Nordkorea","fr":"Corée du Nord","_id":"2Uc24cAbUze96WON"}
-{"code":"MNP","en":"Northern Mariana Islands","de":"Nördliche Marianen","fr":"Îles Mariannes du Nord","_id":"Gog5iWglJD6oHhPr"}
-{"code":"NOR","en":"Norway","de":"Norwegen","fr":"Norvège","_id":"tgNoNGxID4CuVNSF"}
-{"code":"OMN","en":"Oman","de":"Oman","fr":"Oman","_id":"1WfnUsg1Gxtp6aCs"}
-{"code":"PAK","en":"Pakistan","de":"Pakistan","fr":"Pakistan","_id":"o4BkJIuY5HLP2JJq"}
-{"code":"PLW","en":"Palau","de":"Palau","fr":"Palaos","_id":"66PNLJhLiKChEGWT"}
-{"code":"PSE","en":"Palestine","de":"Palästina","fr":"Palestine","_id":"L4pDrEENsDrgcPTy"}
-{"code":"PAN","en":"Panama","de":"Panama","fr":"Panama","_id":"9J9BN6evFypcgdPY"}
-{"code":"PNG","en":"Papua New Guinea","de":"Papua-Neuguinea","fr":"Papouasie-Nouvelle-Guinée","_id":"3MTGDndGeaOGpmxR"}
-{"code":"PRY","en":"Paraguay","de":"Paraguay","fr":"Paraguay","_id":"CeLg3CKnTG9tva8M"}
-{"code":"PER","en":"Peru","de":"Peru","fr":"Pérou","_id":"6ITez8QYf1Ux7XRN"}
-{"code":"PHL","en":"Philippines","de":"Philippinen","fr":"Philippines","_id":"zjY1xr2M9yHDlyJt"}
-{"code":"PCN","en":"Pitcairn Islands","de":"Pitcairn","fr":"Îles Pitcairn","_id":"Zqk7Kr0swuC1o1tG"}
-{"code":"POL","en":"Poland","de":"Polen","fr":"Pologne","_id":"Rp7S06Ax7186bnVE"}
-{"code":"PRT","en":"Portugal","de":"Portugal","fr":"Portugal","_id":"3hZSo4PNDfXnQuH4"}
-{"code":"PRI","en":"Puerto Rico","de":"Puerto Rico","fr":"Porto Rico","_id":"5AjK4CxqLwdjdvXy"}
-{"code":"QAT","en":"Qatar","de":"Katar","fr":"Qatar","_id":"ceMx3arHQZr2eIKM"}
-{"code":"KOS","en":"Republic of Kosovo","de":"Republic of Kosovo","fr":"Republic of Kosovo","_id":"LzoDXifhdN9j3bRd"}
-{"code":"REU","en":"Réunion","de":"Réunion","fr":"Réunion","_id":"ZkcTbat1qrOvJgim"}
-{"code":"ROU","en":"Romania","de":"Rumänien","fr":"Roumanie","_id":"hcj4PIRfEDTf8iU2"}
-{"code":"RUS","en":"Russia","de":"Russland","fr":"Russie","_id":"4HbCdu1F0es4qWkv"}
-{"code":"RWA","en":"Rwanda","de":"Ruanda","fr":"Rwanda","_id":"QuaJrtMZ25GldTKR"}
-{"code":"BLM","en":"Saint Barthélemy","de":"Saint-Barthélemy","fr":"Saint-Barthélemy","_id":"qnfXUu5P7llks4O7"}
-{"code":"SHN","en":"Saint Helena","de":"Sankt Helena","fr":"Sainte-Hélène","_id":"K8qOy7FXnOaMVqju"}
-{"code":"KNA","en":"Saint Kitts and Nevis","de":"St. Kitts und Nevis","fr":"Saint-Christophe-et-Niévès","_id":"OGdmM7mfTo5fl1hu"}
-{"code":"LCA","en":"Saint Lucia","de":"Saint Lucia","fr":"Saint-Lucie","_id":"60uT9W2sohtCmS9J"}
-{"code":"MAF","en":"Saint Martin","de":"Saint Martin","fr":"Saint-Martin","_id":"4QUzepWzwnu2KLGs"}
-{"code":"SPM","en":"Saint Pierre and Miquelon","de":"Saint-Pierre und Miquelon","fr":"Saint-Pierre-et-Miquelon","_id":"pTkzbmja8PkbYEQ1"}
-{"code":"VCT","en":"Saint Vincent and the Grenadines","de":"Saint Vincent und die Grenadinen","fr":"Saint-Vincent-et-les-Grenadines","_id":"42xTTeD1FBNoUYqb"}
-{"code":"WSM","en":"Samoa","de":"Samoa","fr":"Samoa","_id":"EjEePVQHCGrPDShi"}
-{"code":"SMR","en":"San Marino","de":"San Marino","fr":"Saint-Marin","_id":"xJvPiQA3YZNHH7RO"}
-{"code":"STP","en":"São Tomé and Príncipe","de":"São Tomé und Príncipe","fr":"Sao Tomé-et-Principe","_id":"7lcu7EsHQdlv6UIo"}
-{"code":"SAU","en":"Saudi Arabia","de":"Saudi-Arabien","fr":"Arabie Saoudite","_id":"HD1EL74wSFxEyBLz"}
-{"code":"SEN","en":"Senegal","de":"Senegal","fr":"Sénégal","_id":"1H5V5j4MI35WlktA"}
-{"code":"SRB","en":"Serbia","de":"Serbien","fr":"Serbie","_id":"fUnbB36abZtDsqcE"}
-{"code":"SYC","en":"Seychelles","de":"Seychellen","fr":"Seychelles","_id":"LyMgeZ8ZR8w7x2JD"}
-{"code":"SLE","en":"Sierra Leone","de":"Sierra Leone","fr":"Sierra Leone","_id":"YbgYn5FGgPGNkxJB"}
-{"code":"SGP","en":"Singapore","de":"Singapur","fr":"Singapour","_id":"oZgz2TCCEaOV7nQu"}
-{"code":"SXM","en":"Sint Maarten","de":"Sint Maarten","fr":"Sint Maarten","_id":"isJ7IcJhsgqJccBS"}
-{"code":"SVK","en":"Slovakia","de":"Slowakei","fr":"Slovaquie","_id":"rDa4RAKzRA7YBkjk"}
-{"code":"SVN","en":"Slovenia","de":"Slowenien","fr":"Slovénie","_id":"DcweAfVztmLA6ljG"}
-{"code":"SLB","en":"Solomon Islands","de":"Salomonen","fr":"Îles Salomon","_id":"AJb9MO52QF8KyDSC"}
-{"code":"SOM","en":"Somalia","de":"Somalia","fr":"Somalie","_id":"5SWZU2xLCIk4aHNe"}
-{"code":"ZAF","en":"South Africa","de":"Republik Südafrika","fr":"Afrique du Sud","_id":"QcxJhIW4cPNw9R9w"}
-{"code":"SGS","en":"South Georgia","de":"Südgeorgien und die Südlichen Sandwichinseln","fr":"Géorgie du Sud-et-les Îles Sandwich du Sud","_id":"6F0tezu4l3VzKeOv"}
-{"code":"KOR","en":"South Korea","de":"Südkorea","fr":"Corée du Sud","_id":"tmIsYjMOKsbxaqy5"}
-{"code":"SSD","en":"South Sudan","de":"Südsudan","fr":"Soudan du Sud","_id":"QXFnhw9wm466G4Dq"}
-{"code":"ESP","en":"Spain","de":"Spanien","fr":"Espagne","_id":"BteihFAQXmHI5eZv"}
-{"code":"LKA","en":"Sri Lanka","de":"Sri Lanka","fr":"Sri Lanka","_id":"IMeE9dj9DQdPu5bp"}
-{"code":"SDN","en":"Sudan","de":"Sudan","fr":"Soudan","_id":"w2MdgavgBpYSZJwI"}
-{"code":"SUR","en":"Suriname","de":"Suriname","fr":"Surinam","_id":"igwHyYl1eZ31cwDD"}
-{"code":"SJM","en":"Svalbard and Jan Mayen","de":"Svalbard und Jan Mayen","fr":"Svalbard et Jan Mayen","_id":"sUd4I5j0bGND6rlw"}
-{"code":"SWZ","en":"Swaziland","de":"Swasiland","fr":"Swaziland","_id":"dNdhFPm2NJzXQ1sN"}
-{"code":"SWE","en":"Sweden","de":"Schweden","fr":"Suède","_id":"Luf0dsdWF7euoRig"}
-{"code":"CHE","en":"Switzerland","de":"Schweiz","fr":"Suisse","_id":"fZZwKEN8AJ8WU6RA"}
-{"code":"SYR","en":"Syria","de":"Syrien","fr":"Syrie","_id":"fiYSNfIKkFXkDgBb"}
-{"code":"TWN","en":"Taiwan","de":"Taiwan","fr":"Taïwan","_id":"r2jTGhSTAL83oTFQ"}
-{"code":"TJK","en":"Tajikistan","de":"Tadschikistan","fr":"Tadjikistan","_id":"G3Ihj9m6D4LGp49u"}
-{"code":"TZA","en":"Tanzania","de":"Tansania","fr":"Tanzanie","_id":"rh9hioTDzw7s9R9O"}
-{"code":"THA","en":"Thailand","de":"Thailand","fr":"Thaïlande","_id":"hI6hhV4CMpat8X0y"}
-{"code":"TLS","en":"East Timor","de":"Timor-Leste","fr":"Timor oriental","_id":"iIzEEQX3JLVJd7Cc"}
-{"code":"TGO","en":"Togo","de":"Togo","fr":"Togo","_id":"eUr9TU6gzytOul4L"}
-{"code":"TKL","en":"Tokelau","de":"Tokelau","fr":"Tokelau","_id":"gs5GFTsKyDtKPe4m"}
-{"code":"TON","en":"Tonga","de":"Tonga","fr":"Tonga","_id":"kDGwm1MA68i4nm6W"}
-{"code":"TTO","en":"Trinidad and Tobago","de":"Trinidad und Tobago","fr":"Trinité et Tobago","_id":"9YRebgdXkEzzCxXE"}
-{"code":"TUN","en":"Tunisia","de":"Tunesien","fr":"Tunisie","_id":"h2HV0fdDcdWTTSNM"}
-{"code":"TUR","en":"Turkey","de":"Türkei","fr":"Turquie","_id":"mK5d1Fpw5fkgzpIp"}
-{"code":"TKM","en":"Turkmenistan","de":"Turkmenistan","fr":"Turkménistan","_id":"HAOVUmupac8esB2c"}
-{"code":"TCA","en":"Turks and Caicos Islands","de":"Turks- und Caicosinseln","fr":"Îles Turques-et-Caïques","_id":"OM0BnLFlv7oyX3Ih"}
-{"code":"TUV","en":"Tuvalu","de":"Tuvalu","fr":"Tuvalu","_id":"VI8qax0el2o4xgwx"}
-{"code":"UGA","en":"Uganda","de":"Uganda","fr":"Uganda","_id":"PqNS9BBIoECZnT5h"}
-{"code":"UKR","en":"Ukraine","de":"Ukraine","fr":"Ukraine","_id":"7goGGJAaBT3HSmIN"}
-{"code":"ARE","en":"United Arab Emirates","de":"Vereinigte Arabische Emirate","fr":"Émirats arabes unis","_id":"c7IgZjQ1ci2dTpFs"}
-{"code":"GBR","en":"United Kingdom","de":"Vereinigtes Königreich","fr":"Royaume-Uni","_id":"vrLQw9jnhHzobcKu"}
-{"code":"USA","en":"United States","de":"Vereinigte Staaten von Amerika","fr":"États-Unis","_id":"0QXq6pNBBLBa3491"}
-{"code":"URY","en":"Uruguay","de":"Uruguay","fr":"Uruguay","_id":"4DY0C52g2JH0kFOu"}
-{"code":"UZB","en":"Uzbekistan","de":"Usbekistan","fr":"Ouzbékistan","_id":"2V5yeW1Xwe4SvtUp"}
-{"code":"VUT","en":"Vanuatu","de":"Vanuatu","fr":"Vanuatu","_id":"GuonGUTqOi7u91o2"}
-{"code":"VEN","en":"Venezuela","de":"Venezuela","fr":"Venezuela","_id":"oC7ai2TIiAHALEaK"}
-{"code":"VNM","en":"Vietnam","de":"Vietnam","fr":"Viêt Nam","_id":"t2LRiRDtkt3JYVlP"}
-{"code":"WLF","en":"Wallis and Futuna","de":"Wallis und Futuna","fr":"Wallis-et-Futuna","_id":"5lBAJ3AWVNyGy3ac"}
-{"code":"ESH","en":"Western Sahara","de":"Westsahara","fr":"Sahara Occidental","_id":"l4altlLLuWrqXVAU"}
-{"code":"YEM","en":"Yemen","de":"Jemen","fr":"Yémen","_id":"8E429S6vHWhCLKW8"}
-{"code":"ZMB","en":"Zambia","de":"Sambia","fr":"Zambie","_id":"6CHLRXa3IY3WuuTn"}
-{"code":"ZWE","en":"Zimbabwe","de":"Simbabwe","fr":"Zimbabwe","_id":"Kf2qZ0rBa9p0jGhF"}
+{"code":"AFG","en":"Afghanistan","de":"Afghanistan","fr":"Afghanistan","_id":"KOfhhYj2xSYT7D0L"}
+{"code":"ALA","en":"Åland Islands","de":"Åland","fr":"Åland","_id":"Tkh91vZXUO2bq8TU"}
+{"code":"ALB","en":"Albania","de":"Albanien","fr":"Albanie","_id":"9POrclMvLTo4PSYx"}
+{"code":"DZA","en":"Algeria","de":"Algerien","fr":"Algérie","_id":"OhDWMrU6JmSI2gAq"}
+{"code":"ASM","en":"American Samoa","de":"Amerikanisch-Samoa","fr":"Samoa américaines","_id":"7NTiGFeFXNYa6fSb"}
+{"code":"AND","en":"Andorra","de":"Andorra","fr":"Andorre","_id":"GtvUQriNSLEIRhFj"}
+{"code":"AGO","en":"Angola","de":"Angola","fr":"Angola","_id":"g7BDGhvVylbtrchv"}
+{"code":"AIA","en":"Anguilla","de":"Anguilla","fr":"Anguilla","_id":"Lio4VY7mibxQThFX"}
+{"code":"ATA","en":"Antarctica","de":"Antarktika","fr":"Antarctique","_id":"QF07vSExJUxYMROW"}
+{"code":"ATG","en":"Antigua and Barbuda","de":"Antigua und Barbuda","fr":"Antigua-et-Barbuda","_id":"9U438XjRCAmeOhJq"}
+{"code":"ARG","en":"Argentina","de":"Argentinien","fr":"Argentine","_id":"KnxsHRR4o8FuWYSM"}
+{"code":"ARM","en":"Armenia","de":"Armenien","fr":"Arménie","_id":"po3qObIaslH8Oem0"}
+{"code":"ABW","en":"Aruba","de":"Aruba","fr":"Aruba","_id":"KzSQ1qZPlpMFdyhs"}
+{"code":"AUS","en":"Australia","de":"Australien","fr":"Australie","_id":"Z8tIKQ8cSuvW6ctD"}
+{"code":"AUT","en":"Austria","de":"Österreich","fr":"Autriche","_id":"7rnjARMyuXavM6z6"}
+{"code":"AZE","en":"Azerbaijan","de":"Aserbaidschan","fr":"Azerbaïdjan","_id":"ua5EsSC2Wdk87r9H"}
+{"code":"BHS","en":"The Bahamas","de":"Bahamas","fr":"Bahamas","_id":"Kyw3gnuV75VH1rgK"}
+{"code":"BHR","en":"Bahrain","de":"Bahrain","fr":"Bahreïn","_id":"rT21YlLwhsth10jt"}
+{"code":"BGD","en":"Bangladesh","de":"Bangladesch","fr":"Bangladesh","_id":"HXicOLBZNePLO8AG"}
+{"code":"BRB","en":"Barbados","de":"Barbados","fr":"Barbade","_id":"UltmNEXp809zKOTM"}
+{"code":"BLR","en":"Belarus","de":"Weißrussland","fr":"Biélorussie","_id":"45DJ1YGoLfRbzQjV"}
+{"code":"BEL","en":"Belgium","de":"Belgien","fr":"Belgique","_id":"VqmtmW5gwU3akVag"}
+{"code":"BLZ","en":"Belize","de":"Belize","fr":"Belize","_id":"J7D0hIMBkukKJXmm"}
+{"code":"BEN","en":"Benin","de":"Benin","fr":"Bénin","_id":"y21F1jHbF8cHCnE1"}
+{"code":"BMU","en":"Bermuda","de":"Bermuda","fr":"Bermudes","_id":"1sEJVWsEgwdRqL1P"}
+{"code":"BTN","en":"Bhutan","de":"Bhutan","fr":"Bhoutan","_id":"7QNbtR6B1PHFl5R5"}
+{"code":"BOL","en":"Bolivia","de":"Bolivien","fr":"Bolivie","_id":"OuAEaBCDxqGy9Me4"}
+{"code":"BES","en":"Bonaire","de":"Bonaire","fr":"Bonaire","_id":"bQJH1BezwLxjX2T8"}
+{"code":"BIH","en":"Bosnia and Herzegovina","de":"Bosnien und Herzegowina","fr":"Bosnie-Herzégovine","_id":"JX7MGdNeKL3vE4F1"}
+{"code":"BWA","en":"Botswana","de":"Botswana","fr":"Botswana","_id":"CHplrqRcyP6G3dnm"}
+{"code":"BVT","en":"Bouvet Island","de":"Bouvetinsel","fr":"Île Bouvet","_id":"S02vkOu6dccZNeIb"}
+{"code":"BRA","en":"Brazil","de":"Brasilien","fr":"Brésil","_id":"g2ScWayvadqVfl6z"}
+{"code":"IOT","en":"British Indian Ocean Territory","de":"Britisches Territorium im Indischen Ozean","fr":"Territoire britannique de l'océan Indien","_id":"CK7MGYGbRoXFy0LY"}
+{"code":"UMI","en":"United States Minor Outlying Islands","de":"Kleinere Inselbesitzungen der Vereinigten Staaten","fr":"Îles mineures éloignées des États-Unis","_id":"wAEuWU2VJ6tMLsuh"}
+{"code":"VGB","en":"Virgin Islands (British)","de":"Britische Jungferninseln","fr":"Îles Vierges britanniques","_id":"jr1uwbud3JwtQWAG"}
+{"code":"VIR","en":"Virgin Islands (U.S.)","de":"Amerikanische Jungferninseln","fr":"Îles Vierges des États-Unis","_id":"87FrCEb2znfHMfSi"}
+{"code":"BRN","en":"Brunei","de":"Brunei","fr":"Brunei","_id":"myP9DUOqq6CEoqPZ"}
+{"code":"BGR","en":"Bulgaria","de":"Bulgarien","fr":"Bulgarie","_id":"tWltEBida3PNkQNc"}
+{"code":"BFA","en":"Burkina Faso","de":"Burkina Faso","fr":"Burkina Faso","_id":"Gl9s3F35stvhZwXm"}
+{"code":"BDI","en":"Burundi","de":"Burundi","fr":"Burundi","_id":"Gfv7OyKA4hfdwGMV"}
+{"code":"KHM","en":"Cambodia","de":"Kambodscha","fr":"Cambodge","_id":"TeijVdRTmlnrCfff"}
+{"code":"CMR","en":"Cameroon","de":"Kamerun","fr":"Cameroun","_id":"5n6m5jol4483e9AJ"}
+{"code":"CAN","en":"Canada","de":"Kanada","fr":"Canada","_id":"CTpyvuFyUoxokAtj"}
+{"code":"CPV","en":"Cape Verde","de":"Kap Verde","fr":"Cap Vert","_id":"s3Jsi5ONPRYHDHIJ"}
+{"code":"CYM","en":"Cayman Islands","de":"Kaimaninseln","fr":"Îles Caïmans","_id":"Xi0LQVSjMFIirk12"}
+{"code":"CAF","en":"Central African Republic","de":"Zentralafrikanische Republik","fr":"République centrafricaine","_id":"5f8be5vFO2oEo3YG"}
+{"code":"TCD","en":"Chad","de":"Tschad","fr":"Tchad","_id":"gs74nS8GJb5yXkyx"}
+{"code":"CHL","en":"Chile","de":"Chile","fr":"Chili","_id":"ty3BidMD0BXxIMxt"}
+{"code":"CHN","en":"China","de":"China","fr":"Chine","_id":"bycFiVS5NWPlpzsY"}
+{"code":"CXR","en":"Christmas Island","de":"Weihnachtsinsel","fr":"Île Christmas","_id":"88Fwut97GvvQmlIl"}
+{"code":"CCK","en":"Cocos (Keeling) Islands","de":"Kokosinseln","fr":"Îles Cocos","_id":"CF8gqgXuDigBvJG2"}
+{"code":"COL","en":"Colombia","de":"Kolumbien","fr":"Colombie","_id":"km6vuIoFhwKFBPxX"}
+{"code":"COM","en":"Comoros","de":"Union der Komoren","fr":"Comores","_id":"jVIzTTazC9DzLuyh"}
+{"code":"COG","en":"Republic of the Congo","de":"Kongo","fr":"Congo","_id":"J2YLNXx2Q8sqelyk"}
+{"code":"COD","en":"Democratic Republic of the Congo","de":"Kongo (Dem. Rep.)","fr":"Congo (Rép. dém.)","_id":"o4GMt3TtX4RnbNBn"}
+{"code":"COK","en":"Cook Islands","de":"Cookinseln","fr":"Îles Cook","_id":"gJqKwSu44clkhcqr"}
+{"code":"CRI","en":"Costa Rica","de":"Costa Rica","fr":"Costa Rica","_id":"HkMD29gyHi6kAVzh"}
+{"code":"HRV","en":"Croatia","de":"Kroatien","fr":"Croatie","_id":"ZkoLL4t0hzyAIfFw"}
+{"code":"CUB","en":"Cuba","de":"Kuba","fr":"Cuba","_id":"rYMPs3Zp4hkSMPaT"}
+{"code":"CUW","en":"Curaçao","de":"Curaçao","fr":"Curaçao","_id":"r76DPUZuTU7Zrft2"}
+{"code":"CYP","en":"Cyprus","de":"Zypern","fr":"Chypre","_id":"Eh7aRL8BLn5L9q8Y"}
+{"code":"CZE","en":"Czech Republic","de":"Tschechische Republik","fr":"République tchèque","_id":"vf7Pt66BEbBxZEmv"}
+{"code":"DNK","en":"Denmark","de":"Dänemark","fr":"Danemark","_id":"Ipy0qQTQr54ppjw4"}
+{"code":"DJI","en":"Djibouti","de":"Dschibuti","fr":"Djibouti","_id":"gzjzFZyLxSFYKKWT"}
+{"code":"DMA","en":"Dominica","de":"Dominica","fr":"Dominique","_id":"1wvCQr0dqyhF4vuH"}
+{"code":"DOM","en":"Dominican Republic","de":"Dominikanische Republik","fr":"République dominicaine","_id":"JnCpeCPUDw543sqL"}
+{"code":"ECU","en":"Ecuador","de":"Ecuador","fr":"Équateur","_id":"TTP8PhjQRuOYBzsb"}
+{"code":"EGY","en":"Egypt","de":"Ägypten","fr":"Égypte","_id":"5q3T8OW8mH9cVdR4"}
+{"code":"SLV","en":"El Salvador","de":"El Salvador","fr":"Salvador","_id":"K3gH0pg0yVbu33CJ"}
+{"code":"GNQ","en":"Equatorial Guinea","de":"Äquatorial-Guinea","fr":"Guinée-Équatoriale","_id":"3SEhKVe83g931N6m"}
+{"code":"ERI","en":"Eritrea","de":"Eritrea","fr":"Érythrée","_id":"LFlI4gX2or8GkdFy"}
+{"code":"EST","en":"Estonia","de":"Estland","fr":"Estonie","_id":"cG09KUlxYmwRoZOT"}
+{"code":"ETH","en":"Ethiopia","de":"Äthiopien","fr":"Éthiopie","_id":"eSBlGuOTd6DDEydz"}
+{"code":"FLK","en":"Falkland Islands","de":"Falklandinseln","fr":"Îles Malouines","_id":"RV4kxGSMEnfMfmWd"}
+{"code":"FRO","en":"Faroe Islands","de":"Färöer-Inseln","fr":"Îles Féroé","_id":"1wuc8KF1vJIss7JW"}
+{"code":"FJI","en":"Fiji","de":"Fidschi","fr":"Fidji","_id":"n7KQh4f64DScqhzc"}
+{"code":"FIN","en":"Finland","de":"Finnland","fr":"Finlande","_id":"1A5jBtwDwi63Ox9L"}
+{"code":"FRA","en":"France","de":"Frankreich","fr":"France","_id":"uNCPxOoivqkp3bWU"}
+{"code":"GUF","en":"French Guiana","de":"Französisch Guyana","fr":"Guayane","_id":"wjXoY2H4MIYnkWXf"}
+{"code":"PYF","en":"French Polynesia","de":"Französisch-Polynesien","fr":"Polynésie française","_id":"JH5TCcFiLEXk11eM"}
+{"code":"ATF","en":"French Southern and Antarctic Lands","de":"Französische Süd- und Antarktisgebiete","fr":"Terres australes et antarctiques françaises","_id":"EjPDysPsSA9OQXPz"}
+{"code":"GAB","en":"Gabon","de":"Gabun","fr":"Gabon","_id":"MnKCWFxUWnrYQN6d"}
+{"code":"GMB","en":"The Gambia","de":"Gambia","fr":"Gambie","_id":"65crrwHAJmIMlRud"}
+{"code":"GEO","en":"Georgia","de":"Georgien","fr":"Géorgie","_id":"CHrwqvRt2XXGwRfk"}
+{"code":"DEU","en":"Germany","de":"Deutschland","fr":"Allemagne","_id":"qXwodRasMBugnhkE"}
+{"code":"GHA","en":"Ghana","de":"Ghana","fr":"Ghana","_id":"ufWel4bWym7t2zph"}
+{"code":"GIB","en":"Gibraltar","de":"Gibraltar","fr":"Gibraltar","_id":"gT68argDoqqBdAbY"}
+{"code":"GRC","en":"Greece","de":"Griechenland","fr":"Grèce","_id":"VcVr6U6obV7TZugM"}
+{"code":"GRL","en":"Greenland","de":"Grönland","fr":"Groenland","_id":"Da3vXweTMBiiYSju"}
+{"code":"GRD","en":"Grenada","de":"Grenada","fr":"Grenade","_id":"WA9LsAjreV8mfK9v"}
+{"code":"GLP","en":"Guadeloupe","de":"Guadeloupe","fr":"Guadeloupe","_id":"8HUAcxxClgktBm5v"}
+{"code":"GUM","en":"Guam","de":"Guam","fr":"Guam","_id":"QgHq59TMB8COtaEW"}
+{"code":"GTM","en":"Guatemala","de":"Guatemala","fr":"Guatemala","_id":"tgWcopPcn3O0gelQ"}
+{"code":"GGY","en":"Guernsey","de":"Guernsey","fr":"Guernesey","_id":"JP1DRYuIBhABySNg"}
+{"code":"GIN","en":"Guinea","de":"Guinea","fr":"Guinée","_id":"407rmNtbjxIsMOXx"}
+{"code":"GNB","en":"Guinea-Bissau","de":"Guinea-Bissau","fr":"Guinée-Bissau","_id":"oAIug8S9geEbKQSm"}
+{"code":"GUY","en":"Guyana","de":"Guyana","fr":"Guyane","_id":"VC3DdmQI9MfZyx4T"}
+{"code":"HTI","en":"Haiti","de":"Haiti","fr":"Haïti","_id":"EAYSlLSvJ5gzx87G"}
+{"code":"HMD","en":"Heard Island and McDonald Islands","de":"Heard und die McDonaldinseln","fr":"Îles Heard-et-MacDonald","_id":"MnhfpYRgl2DkGUUx"}
+{"code":"VAT","en":"Holy See","de":"Heiliger Stuhl","fr":"voir Saint","_id":"rEuj5rz7BHLnIF5R"}
+{"code":"HND","en":"Honduras","de":"Honduras","fr":"Honduras","_id":"YnfiygQGbCZwpVKa"}
+{"code":"HKG","en":"Hong Kong","de":"Hong Kong","fr":"Hong Kong","_id":"Eg0En1qP54yECUeN"}
+{"code":"HUN","en":"Hungary","de":"Ungarn","fr":"Hongrie","_id":"XWQyZ1e9R63P1Nsn"}
+{"code":"ISL","en":"Iceland","de":"Island","fr":"Islande","_id":"OfhJ013Xvq3PwO4N"}
+{"code":"IND","en":"India","de":"Indien","fr":"Inde","_id":"LDzSxdG3FZDCwroI"}
+{"code":"IDN","en":"Indonesia","de":"Indonesien","fr":"Indonésie","_id":"TwxC0zn1iOTCvwg6"}
+{"code":"CIV","en":"Ivory Coast","de":"Elfenbeinküste","fr":"Côte d'Ivoire","_id":"wclxhmUSjCOOrIG5"}
+{"code":"IRN","en":"Iran","de":"Iran","fr":"Iran","_id":"l5bBOVK27HtjnKsS"}
+{"code":"IRQ","en":"Iraq","de":"Irak","fr":"Irak","_id":"Dpy8qe2xexki2RPi"}
+{"code":"IRL","en":"Republic of Ireland","de":"Irland","fr":"Irlande","_id":"i8JNOufdlDHV9yf0"}
+{"code":"IMN","en":"Isle of Man","de":"Insel Man","fr":"Île de Man","_id":"8gZmRXPrUdIsnHbZ"}
+{"code":"ISR","en":"Israel","de":"Israel","fr":"Israël","_id":"5MFSLJqFqXulp2di"}
+{"code":"ITA","en":"Italy","de":"Italien","fr":"Italie","_id":"cSvdcFPPkxMUAoTB"}
+{"code":"JAM","en":"Jamaica","de":"Jamaika","fr":"Jamaïque","_id":"YjcjRjt1iFxdalMZ"}
+{"code":"JPN","en":"Japan","de":"Japan","fr":"Japon","_id":"ehdgC8yilWEIWpXm"}
+{"code":"JEY","en":"Jersey","de":"Jersey","fr":"Jersey","_id":"R1MDqOECT8FXRJ5w"}
+{"code":"JOR","en":"Jordan","de":"Jordanien","fr":"Jordanie","_id":"vjBJywtWH1QIj09t"}
+{"code":"KAZ","en":"Kazakhstan","de":"Kasachstan","fr":"Kazakhstan","_id":"2wi3kG1aD92CWFXx"}
+{"code":"KEN","en":"Kenya","de":"Kenia","fr":"Kenya","_id":"5FoHgclJP79X508W"}
+{"code":"KIR","en":"Kiribati","de":"Kiribati","fr":"Kiribati","_id":"Dt2vWMVQYmenLYMI"}
+{"code":"KWT","en":"Kuwait","de":"Kuwait","fr":"Koweït","_id":"TYXA9FUMJxQbrwGB"}
+{"code":"KGZ","en":"Kyrgyzstan","de":"Kirgisistan","fr":"Kirghizistan","_id":"DEERW38fmtVqZdxZ"}
+{"code":"LAO","en":"Laos","de":"Laos","fr":"Laos","_id":"FAyfKjTFLSUsOikp"}
+{"code":"LVA","en":"Latvia","de":"Lettland","fr":"Lettonie","_id":"c9ZaL6SZFk6qWjAI"}
+{"code":"LBN","en":"Lebanon","de":"Libanon","fr":"Liban","_id":"Ud4pyFwHau5ppF9D"}
+{"code":"LSO","en":"Lesotho","de":"Lesotho","fr":"Lesotho","_id":"8s6OzWKL3yQFdG8Q"}
+{"code":"LBR","en":"Liberia","de":"Liberia","fr":"Liberia","_id":"66QRXVMOK7LzLJvr"}
+{"code":"LBY","en":"Libya","de":"Libyen","fr":"Libye","_id":"HqlQjOmQiYYlBS1V"}
+{"code":"LIE","en":"Liechtenstein","de":"Liechtenstein","fr":"Liechtenstein","_id":"f3T5KlAvQIEy6FIs"}
+{"code":"LTU","en":"Lithuania","de":"Litauen","fr":"Lituanie","_id":"09IvY5abb3iMVJPq"}
+{"code":"LUX","en":"Luxembourg","de":"Luxemburg","fr":"Luxembourg","_id":"L3BMETHa68EDzVS7"}
+{"code":"MAC","en":"Macau","de":"Macao","fr":"Macao","_id":"q1eqfUSebdqKHBTh"}
+{"code":"MKD","en":"Republic of Macedonia","de":"Mazedonien","fr":"Macédoine","_id":"77CQtq4lTAMXIIKk"}
+{"code":"MDG","en":"Madagascar","de":"Madagaskar","fr":"Madagascar","_id":"TjWuq1nyEkvxJosZ"}
+{"code":"MWI","en":"Malawi","de":"Malawi","fr":"Malawi","_id":"MNJ23PvJiIh84lQF"}
+{"code":"MYS","en":"Malaysia","de":"Malaysia","fr":"Malaisie","_id":"fbaaCk0HO4VG5Jm3"}
+{"code":"MDV","en":"Maldives","de":"Malediven","fr":"Maldives","_id":"bTqwlTJ6qJxJBj5Y"}
+{"code":"MLI","en":"Mali","de":"Mali","fr":"Mali","_id":"q7H31BxV5EcgIbjn"}
+{"code":"MLT","en":"Malta","de":"Malta","fr":"Malte","_id":"NBmwMnsPLvoRKoqq"}
+{"code":"MHL","en":"Marshall Islands","de":"Marshallinseln","fr":"Îles Marshall","_id":"l7FmiVpQtwMyQHzf"}
+{"code":"MTQ","en":"Martinique","de":"Martinique","fr":"Martinique","_id":"2uII8PIgZgBxBSLl"}
+{"code":"MRT","en":"Mauritania","de":"Mauretanien","fr":"Mauritanie","_id":"FJop5Cidz6lHLFGc"}
+{"code":"MUS","en":"Mauritius","de":"Mauritius","fr":"Île Maurice","_id":"eHTi7MCqIStqjsXZ"}
+{"code":"MYT","en":"Mayotte","de":"Mayotte","fr":"Mayotte","_id":"HRZ5HA5L6Lk4CpUR"}
+{"code":"MEX","en":"Mexico","de":"Mexiko","fr":"Mexique","_id":"xxD0Rkfmr9VLTODU"}
+{"code":"FSM","en":"Federated States of Micronesia","de":"Mikronesien","fr":"Micronésie","_id":"xsAuhOPEB5gsxIMV"}
+{"code":"MDA","en":"Moldova","de":"Moldawie","fr":"Moldavie","_id":"S0djq52CCqKeKiGl"}
+{"code":"MCO","en":"Monaco","de":"Monaco","fr":"Monaco","_id":"S5XnK07O999mJQfz"}
+{"code":"MNG","en":"Mongolia","de":"Mongolei","fr":"Mongolie","_id":"umXfru9itWPjnMvj"}
+{"code":"MNE","en":"Montenegro","de":"Montenegro","fr":"Monténégro","_id":"KV6Jl7rbOEFPZkbW"}
+{"code":"MSR","en":"Montserrat","de":"Montserrat","fr":"Montserrat","_id":"hQHg8fLmcSz6M8hh"}
+{"code":"MAR","en":"Morocco","de":"Marokko","fr":"Maroc","_id":"voo0xpN3SipdroTZ"}
+{"code":"MOZ","en":"Mozambique","de":"Mosambik","fr":"Mozambique","_id":"B0r2NCwbZ0AHgbyp"}
+{"code":"MMR","en":"Myanmar","de":"Myanmar","fr":"Myanmar","_id":"5Bn0SPylLvkrOIUA"}
+{"code":"NAM","en":"Namibia","de":"Namibia","fr":"Namibie","_id":"nTUbTPoBs5c7AzHT"}
+{"code":"NRU","en":"Nauru","de":"Nauru","fr":"Nauru","_id":"sCrM4XuCSRWRJG8u"}
+{"code":"NPL","en":"Nepal","de":"Népal","fr":"Népal","_id":"0tRSU3b6QblWcVjV"}
+{"code":"NLD","en":"Netherlands","de":"Niederlande","fr":"Pays-Bas","_id":"dp5jTeMdgY8Lisn3"}
+{"code":"NCL","en":"New Caledonia","de":"Neukaledonien","fr":"Nouvelle-Calédonie","_id":"UG3bOU0AIcNNJfnM"}
+{"code":"NZL","en":"New Zealand","de":"Neuseeland","fr":"Nouvelle-Zélande","_id":"Ly4NCyw0CoPnY3zz"}
+{"code":"NIC","en":"Nicaragua","de":"Nicaragua","fr":"Nicaragua","_id":"wiwO5yx9KwY7nq2m"}
+{"code":"NER","en":"Niger","de":"Niger","fr":"Niger","_id":"FinzoSPBXuWEO6cG"}
+{"code":"NGA","en":"Nigeria","de":"Nigeria","fr":"Nigéria","_id":"u5fLb2igZ8OuCNG1"}
+{"code":"NIU","en":"Niue","de":"Niue","fr":"Niue","_id":"iFL2U0pIRQThsjzm"}
+{"code":"NFK","en":"Norfolk Island","de":"Norfolkinsel","fr":"Île de Norfolk","_id":"LCdGFdqVYuseQkjs"}
+{"code":"PRK","en":"North Korea","de":"Nordkorea","fr":"Corée du Nord","_id":"iIcSPsfTRFsmcx39"}
+{"code":"MNP","en":"Northern Mariana Islands","de":"Nördliche Marianen","fr":"Îles Mariannes du Nord","_id":"WbtNfiyfC4JKvzyI"}
+{"code":"NOR","en":"Norway","de":"Norwegen","fr":"Norvège","_id":"tV5ciYsVBOCrIu2G"}
+{"code":"OMN","en":"Oman","de":"Oman","fr":"Oman","_id":"4BJTtGGdMoEZwS2q"}
+{"code":"PAK","en":"Pakistan","de":"Pakistan","fr":"Pakistan","_id":"iQ49RUDUXpmKRYJL"}
+{"code":"PLW","en":"Palau","de":"Palau","fr":"Palaos","_id":"GgLUrojFZrJpbZT3"}
+{"code":"PSE","en":"Palestine","de":"Palästina","fr":"Palestine","_id":"51j1cnkURV7FvTjY"}
+{"code":"PAN","en":"Panama","de":"Panama","fr":"Panama","_id":"BuhiNAskCKCqhTAz"}
+{"code":"PNG","en":"Papua New Guinea","de":"Papua-Neuguinea","fr":"Papouasie-Nouvelle-Guinée","_id":"2i8qwIKrxuNkW5sk"}
+{"code":"PRY","en":"Paraguay","de":"Paraguay","fr":"Paraguay","_id":"YkVMrCad6kdWGzE4"}
+{"code":"PER","en":"Peru","de":"Peru","fr":"Pérou","_id":"hyYhNq6FuJ9R4Av1"}
+{"code":"PHL","en":"Philippines","de":"Philippinen","fr":"Philippines","_id":"Wwt2ohDT3uKcpPyI"}
+{"code":"PCN","en":"Pitcairn Islands","de":"Pitcairn","fr":"Îles Pitcairn","_id":"PaSEwA7BqyEvKNT8"}
+{"code":"POL","en":"Poland","de":"Polen","fr":"Pologne","_id":"R8TLg3VGaLtvIXky"}
+{"code":"PRT","en":"Portugal","de":"Portugal","fr":"Portugal","_id":"ImsUMRW37WbAWIFr"}
+{"code":"PRI","en":"Puerto Rico","de":"Puerto Rico","fr":"Porto Rico","_id":"IG0945JihmK3UZUz"}
+{"code":"QAT","en":"Qatar","de":"Katar","fr":"Qatar","_id":"6JNVcT4XVBxc4AIU"}
+{"code":"KOS","en":"Republic of Kosovo","de":"Republic of Kosovo","fr":"Republic of Kosovo","_id":"tVQdE2vPWZzuCaO2"}
+{"code":"REU","en":"Réunion","de":"Réunion","fr":"Réunion","_id":"soDyI4SgQROl5LAi"}
+{"code":"ROU","en":"Romania","de":"Rumänien","fr":"Roumanie","_id":"E1f6RNoDDJcXrZKK"}
+{"code":"RUS","en":"Russia","de":"Russland","fr":"Russie","_id":"vljIisgq7MjrKXwS"}
+{"code":"RWA","en":"Rwanda","de":"Ruanda","fr":"Rwanda","_id":"bK6cIRGQOroaCmoS"}
+{"code":"BLM","en":"Saint Barthélemy","de":"Saint-Barthélemy","fr":"Saint-Barthélemy","_id":"66Se8Fc2bmeg0p2p"}
+{"code":"SHN","en":"Saint Helena","de":"Sankt Helena","fr":"Sainte-Hélène","_id":"CexDrq4O8BC9xdqG"}
+{"code":"KNA","en":"Saint Kitts and Nevis","de":"St. Kitts und Nevis","fr":"Saint-Christophe-et-Niévès","_id":"0mlAr7vin5c7l96r"}
+{"code":"LCA","en":"Saint Lucia","de":"Saint Lucia","fr":"Saint-Lucie","_id":"yfcXFiSsicTUd2Cj"}
+{"code":"MAF","en":"Saint Martin","de":"Saint Martin","fr":"Saint-Martin","_id":"Ed7Oj06O10H9rzwE"}
+{"code":"SPM","en":"Saint Pierre and Miquelon","de":"Saint-Pierre und Miquelon","fr":"Saint-Pierre-et-Miquelon","_id":"TKU9kGybyYMAxmtm"}
+{"code":"VCT","en":"Saint Vincent and the Grenadines","de":"Saint Vincent und die Grenadinen","fr":"Saint-Vincent-et-les-Grenadines","_id":"CZokjMdTqDrjimHp"}
+{"code":"WSM","en":"Samoa","de":"Samoa","fr":"Samoa","_id":"3TjBJbKc3I1yHSPY"}
+{"code":"SMR","en":"San Marino","de":"San Marino","fr":"Saint-Marin","_id":"rkhvljSPuHZnrtup"}
+{"code":"STP","en":"São Tomé and Príncipe","de":"São Tomé und Príncipe","fr":"Sao Tomé-et-Principe","_id":"9XkjMuGowafb7KTw"}
+{"code":"SAU","en":"Saudi Arabia","de":"Saudi-Arabien","fr":"Arabie Saoudite","_id":"fNxz30HRzPN289a5"}
+{"code":"SEN","en":"Senegal","de":"Senegal","fr":"Sénégal","_id":"JPFm5PIUFikZyufP"}
+{"code":"SRB","en":"Serbia","de":"Serbien","fr":"Serbie","_id":"wpKHNjYHzAlJSdQK"}
+{"code":"SYC","en":"Seychelles","de":"Seychellen","fr":"Seychelles","_id":"IcVjOZqXYcq7zeD8"}
+{"code":"SLE","en":"Sierra Leone","de":"Sierra Leone","fr":"Sierra Leone","_id":"I4ZotRYtNfCkuClu"}
+{"code":"SGP","en":"Singapore","de":"Singapur","fr":"Singapour","_id":"BtM1kcb4K0xnmKVV"}
+{"code":"SXM","en":"Sint Maarten","de":"Sint Maarten","fr":"Sint Maarten","_id":"7KvggKRdnuwTsXBp"}
+{"code":"SVK","en":"Slovakia","de":"Slowakei","fr":"Slovaquie","_id":"idu2i44MfEJyV7nV"}
+{"code":"SVN","en":"Slovenia","de":"Slowenien","fr":"Slovénie","_id":"nGy0Eg0gdUyoQCWt"}
+{"code":"SLB","en":"Solomon Islands","de":"Salomonen","fr":"Îles Salomon","_id":"1iXLTXW5Nm6VjlCE"}
+{"code":"SOM","en":"Somalia","de":"Somalia","fr":"Somalie","_id":"jkSb04deYDH4b5zZ"}
+{"code":"ZAF","en":"South Africa","de":"Republik Südafrika","fr":"Afrique du Sud","_id":"gt3844oOKhirXFOT"}
+{"code":"SGS","en":"South Georgia","de":"Südgeorgien und die Südlichen Sandwichinseln","fr":"Géorgie du Sud-et-les Îles Sandwich du Sud","_id":"LxiTLJVqE6weQcnd"}
+{"code":"KOR","en":"South Korea","de":"Südkorea","fr":"Corée du Sud","_id":"SPigcIchRgmVcVJ1"}
+{"code":"SSD","en":"South Sudan","de":"Südsudan","fr":"Soudan du Sud","_id":"lSkrx9LdWgEvJqpL"}
+{"code":"ESP","en":"Spain","de":"Spanien","fr":"Espagne","_id":"8bibCuBqFPRKeOsi"}
+{"code":"LKA","en":"Sri Lanka","de":"Sri Lanka","fr":"Sri Lanka","_id":"jexk6JPa8gBsVdBL"}
+{"code":"SDN","en":"Sudan","de":"Sudan","fr":"Soudan","_id":"Zgjj5Q6lMUH572Ec"}
+{"code":"SUR","en":"Suriname","de":"Suriname","fr":"Surinam","_id":"2yJVDEIuHKOIPPOg"}
+{"code":"SJM","en":"Svalbard and Jan Mayen","de":"Svalbard und Jan Mayen","fr":"Svalbard et Jan Mayen","_id":"Yixe9Ngcfg2buOR5"}
+{"code":"SWZ","en":"Swaziland","de":"Swasiland","fr":"Swaziland","_id":"NNI9VECzvSyklBlP"}
+{"code":"SWE","en":"Sweden","de":"Schweden","fr":"Suède","_id":"t2NlsR3VS4Yd4CRk"}
+{"code":"CHE","en":"Switzerland","de":"Schweiz","fr":"Suisse","_id":"J6p9FUe15qQ8uDud"}
+{"code":"SYR","en":"Syria","de":"Syrien","fr":"Syrie","_id":"WhjXcDdgVf3i4pUu"}
+{"code":"TWN","en":"Taiwan","de":"Taiwan","fr":"Taïwan","_id":"vU4vnXdRCDH9Ptk5"}
+{"code":"TJK","en":"Tajikistan","de":"Tadschikistan","fr":"Tadjikistan","_id":"ERD5lmSN6XF6Hkgc"}
+{"code":"TZA","en":"Tanzania","de":"Tansania","fr":"Tanzanie","_id":"AqkyAcKw58fwfL0p"}
+{"code":"THA","en":"Thailand","de":"Thailand","fr":"Thaïlande","_id":"CFVgdzixVgjHRXVw"}
+{"code":"TLS","en":"East Timor","de":"Timor-Leste","fr":"Timor oriental","_id":"0VaPUl7bPxlMZlY7"}
+{"code":"TGO","en":"Togo","de":"Togo","fr":"Togo","_id":"ioWiXmv0S320yjKx"}
+{"code":"TKL","en":"Tokelau","de":"Tokelau","fr":"Tokelau","_id":"nJgHGolta4GYSFhB"}
+{"code":"TON","en":"Tonga","de":"Tonga","fr":"Tonga","_id":"p4REz6ZfR0IILhAE"}
+{"code":"TTO","en":"Trinidad and Tobago","de":"Trinidad und Tobago","fr":"Trinité et Tobago","_id":"ddx936abAdKfJDUP"}
+{"code":"TUN","en":"Tunisia","de":"Tunesien","fr":"Tunisie","_id":"RT51fx0WagpIZK1E"}
+{"code":"TUR","en":"Turkey","de":"Türkei","fr":"Turquie","_id":"Ubq3abXmdXcEijQu"}
+{"code":"TKM","en":"Turkmenistan","de":"Turkmenistan","fr":"Turkménistan","_id":"HdgDc3WFgQDu7DmD"}
+{"code":"TCA","en":"Turks and Caicos Islands","de":"Turks- und Caicosinseln","fr":"Îles Turques-et-Caïques","_id":"tTzBg3kP0or36M5K"}
+{"code":"TUV","en":"Tuvalu","de":"Tuvalu","fr":"Tuvalu","_id":"KEJ6OKj9bPMCV2qY"}
+{"code":"UGA","en":"Uganda","de":"Uganda","fr":"Uganda","_id":"w3WXRrxrSi04yLCF"}
+{"code":"UKR","en":"Ukraine","de":"Ukraine","fr":"Ukraine","_id":"LUtJEMhFgRtstrcP"}
+{"code":"ARE","en":"United Arab Emirates","de":"Vereinigte Arabische Emirate","fr":"Émirats arabes unis","_id":"v2frBaSCwNC2APWJ"}
+{"code":"GBR","en":"United Kingdom","de":"Vereinigtes Königreich","fr":"Royaume-Uni","_id":"iwYifQuqn6zghIqA"}
+{"code":"USA","en":"United States","de":"Vereinigte Staaten von Amerika","fr":"États-Unis","_id":"G1OhkgCSe0KMpfU3"}
+{"code":"URY","en":"Uruguay","de":"Uruguay","fr":"Uruguay","_id":"kiFv1N0GJeVOC2aD"}
+{"code":"UZB","en":"Uzbekistan","de":"Usbekistan","fr":"Ouzbékistan","_id":"BgCLDV9TQVdMzpvo"}
+{"code":"VUT","en":"Vanuatu","de":"Vanuatu","fr":"Vanuatu","_id":"dzEl3U9v6EBmrcL1"}
+{"code":"VEN","en":"Venezuela","de":"Venezuela","fr":"Venezuela","_id":"En50ebI2GkGvAxwt"}
+{"code":"VNM","en":"Vietnam","de":"Vietnam","fr":"Viêt Nam","_id":"wYGWPzTE8AOwW96z"}
+{"code":"WLF","en":"Wallis and Futuna","de":"Wallis und Futuna","fr":"Wallis-et-Futuna","_id":"YwwfbTRCt24jSp5b"}
+{"code":"ESH","en":"Western Sahara","de":"Westsahara","fr":"Sahara Occidental","_id":"q2xR5ZmaojuzwhD6"}
+{"code":"YEM","en":"Yemen","de":"Jemen","fr":"Yémen","_id":"BXPzzK51FfK70xJF"}
+{"code":"ZMB","en":"Zambia","de":"Sambia","fr":"Zambie","_id":"9Em5xaYweiz5TjxR"}
+{"code":"ZWE","en":"Zimbabwe","de":"Simbabwe","fr":"Zimbabwe","_id":"wBrjYZhl3PILA4JM"}

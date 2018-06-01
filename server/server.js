@@ -10,8 +10,8 @@ var bodyParser = require('body-parser');
 
 const queryRegex = /(?:\w+:[\w -]+)/g;
 
-const responseDelay = 0; // 1000 for emulate delay for wine retrieving 
-const dbSize = 1; // 1000 for lazy loading
+const responseDelay = 1000; // 1000 for emulate delay for wine retrieving 
+const dbSize = 10; // 1000 for lazy loading
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
