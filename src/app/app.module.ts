@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { MatCardModule, MatButtonModule, MatButtonToggleModule, MatDialogModule, MatInputModule } from '@angular/material';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -55,6 +56,7 @@ const appRoutes: Routes = [
     MatDialogModule,
     MatToolbarModule,
     MatIconModule,
+    MatAutocompleteModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [WineApiService],

@@ -1,36 +1,40 @@
 <form [formGroup]="form" (ngSubmit)="createwine()" class="text-center row">
-<mat-form-field class="form-group col-md-8">
-    <input matInput name="name" placeholder="Nom" formControlName="name">
-</mat-form-field>
-
-<mat-form-field class="form-group col-md-4">
-    <input matInput name="year" placeholder="Année" formControlName="year">
-</mat-form-field>
-
-  <mat-form-field class="form-group col-md-12">
-    <textarea matInput name ="description" placeholder="Description" rows="5" formControlName="description"></textarea>
-  </mat-form-field>
-
-  <mat-form-field class="form-group col-md-6">
-    <mat-select placeholder="Pays" name="country" formControlName="country">
-      <mat-option value="fr">France</mat-option>
-    </mat-select>
-  </mat-form-field>
-
-  <mat-form-field class="form-group col-md-6">
-      <mat-select placeholder="Region" name="region" formControlName="region">
-        <mat-option value="paca">Paca</mat-option>
-      </mat-select>
-  </mat-form-field>
-
-  <mat-form-field class="form-group col-md-6">
-      <input matInput name ="price" placeholder="Prix" formControlName="price">
-  </mat-form-field>
-
-  <mat-form-field class="form-group col-md-6">
-      <input matInput name ="rating" placeholder="Note" formControlName="rating">
-  </mat-form-field>
- <div class="col-md-12">
-  <button type="submit" mat-button color="primary">Ajouter un vin</button>
- </div>
-</form>
+    <mat-form-field class="form-group col-md-8">
+        <input matInput name="name" placeholder="Nom" formControlName="name" required>
+    </mat-form-field>
+    
+    <mat-form-field class="form-group col-md-4">
+        <input matInput name="year" placeholder="Année" formControlName="year" required>
+    </mat-form-field>
+    
+      <mat-form-field class="form-group col-md-12">
+        <textarea matInput name ="description" placeholder="Description" rows="5" formControlName="description"></textarea>
+      </mat-form-field>
+    
+      <mat-form-field class="form-group col-md-6">
+    
+        <input type="text" placeholder="Pays" matInput name="country" formControlName="country" [formControl]="countryControl" [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option *ngFor="let country of filteredOptions | async" [value]="country.code">
+            {{ country.fr }}
+          </mat-option>
+        </mat-autocomplete>
+    
+        
+      </mat-form-field>
+    
+      <mat-form-field class="form-group col-md-6">
+          <input matInput name="region" placeholder="Region" formControlName="region">
+      </mat-form-field>
+    
+      <mat-form-field class="form-group col-md-6">
+          <input matInput name ="price" placeholder="Prix" formControlName="price">
+      </mat-form-field>
+    
+      <mat-form-field class="form-group col-md-6">
+          <input matInput name ="rating" placeholder="Note" formControlName="rating">
+      </mat-form-field>
+     <div class="col-md-12">
+      <button type="submit" mat-button color="primary">Ajouter un vin</button>
+     </div>
+    </form>
