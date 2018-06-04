@@ -43,6 +43,16 @@ export class WineApiService {
     return `${BASE_API_URL}/${this.winesUrl}/${wineId}/picture`;
   }
 
+  public get(wineId: number): Promise<Wine> {
+
+    return this.http.get(`${BASE_API_URL}/${this.winesUrl}/${wineId}`)
+      .toPromise()
+      .then(response => {
+        return response as Wine;
+      })
+      .catch(this.handleError);
+  };
+
   public save(wine: Wine): Promise<Wine> {
     return this.http.post(`${BASE_API_URL}/${this.winesUrl}`, wine)
       .toPromise()

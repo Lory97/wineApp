@@ -15,31 +15,36 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { WinesListComponent , DeleteWineDialogComponent } from './wine/wines-list/wines-list.component';
-import { WineItemComponent } from './wine/wine-item/wine-item.component';
+import { WineItemContentComponent, WineItemDialogComponent, WineItemPageComponent } from './wine/wine-item';
+
 import { WineApiService } from './wine/wine-api.service';
 import { WineAddFormComponent } from './wine/wine-add-form/wine-add-form.component';
 import { WineSearchFormComponent } from './wine/wine-search-form/wine-search-form.component';
 import { WineEditFormComponent } from './wine/wine-edit-form/wine-edit-form.component';
 
+
 const appRoutes: Routes = [
-  { path: 'wines',     component: WinesListComponent },
-  { path: 'wines/:id',  component: WineItemComponent },
-  { path: 'wines/add', component : WineAddFormComponent },
-  { path: 'wines/delete/:id', component : DeleteWineDialogComponent},
-  { path : 'wines/edit/:id',component : WineEditFormComponent },
-  { path: '',   redirectTo: '/wines', pathMatch: 'full' },
-  ];
+  { path: '', redirectTo: '/wines', pathMatch: 'full' },
+  { path: 'wines', component: WinesListComponent },
+  { path: 'wines/:id', component: WineItemPageComponent },
+  { path: 'wines/add', component: WineAddFormComponent },
+  { path: 'wines/delete/:id', component: DeleteWineDialogComponent },
+  { path: 'wines/edit/:id', component: WineEditFormComponent },
+  { path: '**', redirectTo: '/wines', pathMatch: 'full' },
+];
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WinesListComponent,
-    WineItemComponent,
+    WineItemContentComponent,WineItemDialogComponent, WineItemPageComponent,
     WineAddFormComponent,
     DeleteWineDialogComponent,
     WineSearchFormComponent,
-    WineEditFormComponent
+    WineEditFormComponent,
+    WineItemPageComponent,
+    WineItemDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,6 +64,7 @@ const appRoutes: Routes = [
     MatAutocompleteModule,
     RouterModule.forRoot(appRoutes)
   ],
+  entryComponents: [WineItemDialogComponent],
   providers: [WineApiService],
   bootstrap: [AppComponent]
 })
