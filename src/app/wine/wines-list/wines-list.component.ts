@@ -51,7 +51,7 @@ export class WinesListComponent implements OnInit {
           this.wines = data;
         }else{
           console.log('no term in search, load initial wines list')
-          this.wineApiService.getWines().then(response => {
+          this.wineApiService.getWines().subscribe(response => {
             this.wines = response;
           });
         }
@@ -59,7 +59,7 @@ export class WinesListComponent implements OnInit {
 
     )
 
-    this.wineApiService.getWines().then(response => {
+    this.wineApiService.getWines().subscribe(response => {
       this.wines = response;
       console.log(this.wines);
     });
@@ -110,7 +110,7 @@ export class DeleteWineDialogComponent {
   }
 
   deleteWine(){
-    this.wineApiService.delete(this.data).then(response => { 
+    this.wineApiService.delete(this.data).subscribe(response => { 
       console.log(response);
       this.dialogRef.close();
     });

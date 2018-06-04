@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Wine } from './wine';
 import { Observable, Subject } from 'rxjs';
-import { filter } from 'rxjs/operators';
+import { filter, catchError, tap, map } from 'rxjs/operators';
 
 const PARAM_NAME_SKIP = 'skip';
 const PARAM_NAME_LIMIT = 'limit';
@@ -29,61 +29,64 @@ export class WineApiService {
 
   constructor(private http : HttpClient) {}
 
-  getWines() : Promise<Wine[]>{
-    return this.http.get(`${BASE_API_URL}/${this.winesUrl}`)
-      .toPromise()
-      .then(response => {
-        this.wines = response['items'];
-        return response['items'] as Wine[];
-      })
-      .catch(this.handleError);
+  getWines() : Observable<Wine[]>{
+    return this.http.get<Wine[]>(`${BASE_API_URL}/${this.winesUrl}`)
+    .pipe(
+      map(data => { 
+        this.wines = data['items']; 
+        return data['items'];
+    }),
+      catchError(this.handleError)
+    )
   }
 
   getImageSourceUrl(wineId: number): string {
     return `${BASE_API_URL}/${this.winesUrl}/${wineId}/picture`;
   }
 
-  public get(wineId: number): Promise<Wine> {
+  public get(wineId: number): Observable<Wine> {
 
-    return this.http.get(`${BASE_API_URL}/${this.winesUrl}/${wineId}`)
-      .toPromise()
-      .then(response => {
-        return response as Wine;
-      })
-      .catch(this.handleError);
-  };
+    return this.http.get<Wine>(`${BASE_API_URL}/${this.winesUrl}/${wineId}`)
+    .pipe(
+      catchError(this.handleError)
+    )
+  }
 
-  public save(wine: Wine): Promise<Wine> {
+  public save(wine: Wine): Observable<Wine> {
     return this.http.post(`${BASE_API_URL}/${this.winesUrl}`, wine)
-      .toPromise()
-      .then(response => {
-        this.created$.next(wine);
-        this.wines.push(wine);
-        return response as Wine;
-      })
-      .catch(this.handleError);
+    .pipe(
+     map(response => { this.created$.next(wine);
+      this.wines.push(wine);
+      return response as Wine;
+    }),
+      catchError(this.handleError)
+    )
   };
 
-  public delete(wine: Wine): Promise<boolean> {
+  public delete(wine: Wine): Observable<boolean> {
     return this.http.delete(`${BASE_API_URL}/${this.winesUrl}/${wine.id}`)
-      .toPromise()
-      .then(response => {
+    .pipe(
+      map(response => { 
         this.removed$.next(wine.id);
-        this.wines = this.wines.filter(filtre => filtre.id != wine.id)
-        return true;
-      })
-      .catch(this.handleError);
+        this.wines = this.wines.filter(filtre => filtre.id != wine.id);
+       return true;
+      }),
+       catchError(this.handleError)
+     )
   };
 
 
-  public update(wine: Wine): Promise<Wine> {
+  public update(wine: Wine): Observable<Wine> {
+
+
     return this.http.put(`${BASE_API_URL}/${this.winesUrl}/${wine.id}`, wine)
-      .toPromise()
-      .then(response => {
+    .pipe(
+      map(response => { 
         this.updated$.next(wine);
-        return response as Wine;
-      })
-      .catch(this.handleError);
+       return response as Wine;
+      }),
+       catchError(this.handleError)
+     )
   };
 
 

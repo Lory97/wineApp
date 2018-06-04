@@ -69,7 +69,7 @@ export class WineAddFormComponent implements OnInit {
         this.newWine = this.form.value;
         this.newWine.country = this.countryControl.value;
 
-      this.wineApi.save(this.newWine).then(data => {
+      this.wineApi.save(this.newWine).subscribe(data => {
         this.newWine.id = data.id;
         console.log(this.newWine); 
         this.dialogRef.close(); 

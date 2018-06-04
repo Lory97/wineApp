@@ -71,7 +71,7 @@ export class WineEditFormComponent implements OnInit {
       this.currentWine.rating = this.form.value.rating;
       this.currentWine.year = this.form.value.year;
 
-      this.wineApi.update(this.currentWine).then( result =>{ 
+      this.wineApi.update(this.currentWine).subscribe( result =>{ 
         console.log(result);
         this.dialogRef.close();
       })

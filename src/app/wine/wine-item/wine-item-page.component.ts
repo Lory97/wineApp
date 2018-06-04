@@ -19,7 +19,7 @@ export class WineItemPageComponent implements OnInit {
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
     console.info(id)
-    fromPromise(this.wineApi.get(+id)).subscribe((wine: Wine)=> this.wine = wine);
+    this.wineApi.get(+id).subscribe((wine: Wine)=> this.wine = wine);
     
   }
 
