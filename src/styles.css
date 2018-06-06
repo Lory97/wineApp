@@ -3,3 +3,11 @@
 body{
     padding-top : 90px;
 }
+
+.mat-select-placeholder {
+    color: white;
+}
+
+.cdk-overlay-pane{
+    top : 70px !important;
+}

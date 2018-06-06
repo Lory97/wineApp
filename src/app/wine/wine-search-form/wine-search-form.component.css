@@ -8,7 +8,3 @@ a.navbar-brand:hover{
        Every toolbar row uses a flexbox row layout. */
     flex: 1 1 auto;
   }
-
-  span.mat-select-placeholder {
-      color : white !important;
-  }

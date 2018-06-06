@@ -14,8 +14,8 @@
           </p>
         </mat-card-content>
         <mat-card-actions class="text-center">
-          <button mat-icon-button (click)="WineDialog(wine.id)"><i style="font-size: 18px;" class="fa fa-eye" aria-hidden="true"></i></button>
-          <button mat-icon-button (click)="deleteWineDialogConfirmation(wine.id)"><i style="font-size: 18px;" class="fa fa-trash-o" aria-hidden="true"></i></button>
+          <button mat-icon-button (click)="WineDialog(wine.id)" data-toggle="tooltip" title="Aperçu"><i style="font-size: 18px;" class="fa fa-eye" aria-hidden="true"></i></button>
+          <button mat-icon-button (click)="deleteWineDialogConfirmation(wine.id)" data-toggle="tooltip" title="Supprimer"><i style="font-size: 18px;" class="fa fa-trash-o" aria-hidden="true"></i></button>
         </mat-card-actions>
     </mat-card>
   </div>
