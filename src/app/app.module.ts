@@ -21,6 +21,7 @@ import { WineApiService } from './wine/wine-api.service';
 import { WineAddFormComponent } from './wine/wine-add-form/wine-add-form.component';
 import { WineSearchFormComponent } from './wine/wine-search-form/wine-search-form.component';
 import { WineEditFormComponent } from './wine/wine-edit-form/wine-edit-form.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 
 const appRoutes: Routes = [
@@ -45,6 +46,7 @@ const appRoutes: Routes = [
     WineEditFormComponent,
     WineItemPageComponent,
     WineItemDialogComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,

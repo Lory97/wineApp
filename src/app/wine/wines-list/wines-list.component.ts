@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { WineApiService } from '../wine-api.service';
+import { WineApiService, WinesQueryResponse } from '../wine-api.service';
 import { Wine } from '../wine';
 import { WineItemDialogComponent } from '../wine-item';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
@@ -12,10 +12,16 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 export class WinesListComponent implements OnInit {
 
   wines:Array<Wine>;
+  loading = false;
+  total = 0;
+  page = 1;
+  limit = 10;
 
   constructor(private wineApiService : WineApiService, public dialog: MatDialog) { }
 
   ngOnInit() {
+
+
 
     this.wineApiService.created$.subscribe(
       data => {
@@ -58,10 +64,16 @@ export class WinesListComponent implements OnInit {
       }
 
     )
-
     this.wineApiService.getWines().subscribe(response => {
       this.wines = response;
       console.log(this.wines);
+    });
+    //this.winePagequery();
+  }
+
+  winePagequery(){
+    this.wineApiService.query(null,null,null,this.limit).subscribe((response:WinesQueryResponse) => {
+      this.wines = response.items; this.total = response.totalCount;
     });
   }
 
@@ -72,6 +84,7 @@ export class WinesListComponent implements OnInit {
   WineDialog(wineId:number): void {
     let dialogRef = this.dialog.open(WineItemDialogComponent, {
       width: '600px',
+      // height: '80vh',
       data: this.wines.find(wine => wine.id == wineId)
     });
  
@@ -92,6 +105,23 @@ export class WinesListComponent implements OnInit {
       console.log('The dialog was closed');
     });
   }
+
+
+  goToPage(n: number): void {
+    this.page = n;
+    this.winePagequery();  }
+
+  onNext(): void {
+    this.page++;
+    this.winePagequery();
+  }
+
+  onPrev(): void {
+    this.page--;
+    this.winePagequery();
+  }
+
+
   
 }
 
@@ -116,5 +146,6 @@ export class DeleteWineDialogComponent {
     });
     
   }
+  
 
 }

@@ -33,6 +33,7 @@ export class WineItemContentComponent implements OnInit {
   editWineDialog(wineId: number) {
     let dialogRef = this.dialog.open(WineEditFormComponent, {
       width: '500px',
+      //height: '70vh',
       data: this.wine})
   }
 

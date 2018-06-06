@@ -8,6 +8,7 @@ import { from as fromPromise } from 'rxjs';
   selector: 'app-wine-item-page',
   template: `
   <app-wine-item-content [wine]="wine"></app-wine-item-content>
+  <div class="row text-center"><button mat-button class="mx-auto mt-3" color="primary" routerLink="/wines">Retour à la liste des Vins</button></div>
   `,
   styles: []
 })
