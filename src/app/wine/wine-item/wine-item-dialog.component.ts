@@ -8,7 +8,7 @@ import { WineEditFormComponent } from '../wine-edit-form/wine-edit-form.componen
 @Component({
   selector: 'app-wine-item-dialog',
   template: `
-    <app-wine-item-content [wine]="wine" (edit)="editWineDialog()"></app-wine-item-content>
+    <app-wine-item-content [wine]="wine" (click)="editWineDialog()"></app-wine-item-content>
   `,
   styles: []
 })
@@ -18,8 +18,8 @@ export class WineItemDialogComponent implements OnInit {
   constructor(
     private wineApi: WineApiService,
     public dialog: MatDialog,
-    public dialogRef?: MatDialogRef<WineItemContentComponent>,
-    @Inject(MAT_DIALOG_DATA) public data?: any
+    public dialogRef: MatDialogRef<WineItemContentComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: any
   ) { }
 
   ngOnInit() {
@@ -28,10 +28,7 @@ export class WineItemDialogComponent implements OnInit {
     }
   }
 
-  editWineDialog() {
-    this.dialogRef.close();
-    let dialogRef = this.dialog.open(WineEditFormComponent, {
-        width: '500px',
-        data: this.wine})
-  }
+   editWineDialog() {
+     this.dialogRef.close();
+   }
 }

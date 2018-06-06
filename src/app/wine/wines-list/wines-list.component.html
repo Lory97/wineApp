@@ -4,7 +4,7 @@
       
         <mat-card-header>
           <!-- <div mat-card-avatar class="example-header-image"></div> -->
-          <mat-card-title>{{wine.name}}</mat-card-title>
+          <mat-card-title><a [routerLink]="['/wines', wine.id]">{{wine.name}}</a></mat-card-title>
           <mat-card-subtitle>{{wine.year}}</mat-card-subtitle>
         </mat-card-header>
         <div class="text-center mb-3"><a [routerLink]="['/wines', wine.id]"><img [src]="getWineImage(wine.id)" height="300" width="88"></a></div>

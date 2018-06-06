@@ -45,7 +45,6 @@ export class WineApiService {
   }
 
   public get(wineId: number): Observable<Wine> {
-
     return this.http.get<Wine>(`${BASE_API_URL}/${this.winesUrl}/${wineId}`)
     .pipe(
       catchError(this.handleError)
@@ -112,8 +111,8 @@ export class WineApiService {
   /**
    * query on server
    */
-  public query(filterParams?: Array<string>, sortParams?: string, skipValue?: number, limitValue?: number): Promise<WinesQueryResponse> {
-    const options = {params : undefined};
+  public query(filterParams?: Array<string>, sortParams?: string, skipValue?: number, limitValue?: number): Observable<WinesQueryResponse> {
+    const options = {params:{}};
 
     //this.openDialog();
 
@@ -128,7 +127,7 @@ export class WineApiService {
 
       console.log(filterForQuery);
       
-      options.params = filterForQuery ?  new HttpParams().set(PARAM_NAME_FILTER, filterForQuery) : {};
+      options.params[PARAM_NAME_FILTER] = filterForQuery ?  new HttpParams().set(PARAM_NAME_FILTER, filterForQuery) : {};
 
       //options.params[PARAM_NAME_FILTER] = filterForQuery;
 
@@ -136,7 +135,7 @@ export class WineApiService {
     }
 
     if (sortParams) {
-      options.params[PARAM_NAME_SORT] = sortParams;
+      options.params[PARAM_NAME_SORT] =  new HttpParams().set(PARAM_NAME_SORT, sortParams);
       // this.logger.log(`WineManagerServiceImpl : ${PARAM_NAME_SORT}=${options.params[PARAM_NAME_SORT]}`);
     }
 
@@ -153,12 +152,10 @@ export class WineApiService {
     console.log(options);
 
     return this.http.get(`${BASE_API_URL}/${this.winesUrl}`, options)
-      .toPromise()
-      .then(response => {
-        //this.closeDialog();
-        return response as WinesQueryResponse;
-      })
-      .catch(this.handleError);
+    .pipe(
+       tap((response : WinesQueryResponse) => this.search$.next(response.items)),
+       catchError(this.handleError)
+     )
   };
 
 

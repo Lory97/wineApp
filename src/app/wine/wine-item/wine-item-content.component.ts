@@ -11,8 +11,8 @@ import { MatDialogRef, MAT_DIALOG_DATA, MatDialog } from '@angular/material';
   styleUrls: ['./wine-item-content.component.css']
 })
 export class WineItemContentComponent implements OnInit {
-  // @Output()
-  // edit = new EventEmitter<number>();
+  @Output()
+  edit = new EventEmitter<number>();
 
   @Input()
   wine: Wine;
@@ -32,7 +32,7 @@ export class WineItemContentComponent implements OnInit {
 
   editWineDialog(wineId: number) {
     let dialogRef = this.dialog.open(WineEditFormComponent, {
-      width: '400px',
+      width: '500px',
       data: this.wine})
   }
 

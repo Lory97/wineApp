@@ -1,8 +1,20 @@
 <mat-toolbar color="primary" class="fixed-top">
-<nav class="navbar justify-content-between col-md-12">
-  <a routerLink="/" class="navbar-brand">Ma Cave</a>
+<nav class="navbar col-md-12">
   <form #searchForm="ngForm" class="form-inline" (ngSubmit)="searchWine(searchForm.value)">
-    <input class="form-control mr-sm-2" (keyup)="searchWine(searchForm.value)" ngModel name="term" type="search" placeholder="Search" aria-label="Search">
+      <a routerLink="/" class="navbar-brand">Ma Cave</a>
+      <span class="example-fill-remaining-space"></span>
+      <mat-select placeholder="Trier" [(ngModel)]="sorting" name="sorting" class="col-md-2 ">
+          <mat-option i18n>none</mat-option>
+          <mat-option value="name:1" i18n>Trier par Nom</mat-option>
+          <mat-option value="year:1" i18n>Trier par Année (croissant)</mat-option>
+          <mat-option value="year:-1" i18n>Trier par Année (décroisant)</mat-option>
+          <mat-option value="price:1" i18n>Trier par Prix(croissant)</mat-option>
+          <mat-option value="price:-1" i18n>Trier par Prix (décroisant)</mat-option>
+          <mat-option value="rating:1" i18n>Trier par Note(croissant)</mat-option>
+          <mat-option value="rating:-1" i18n>Trier par Note(décroissant)</mat-option>
+          <mat-option value="goodDealRatio:-1" i18n>Good deal ratio</mat-option>
+        </mat-select>
+    <input class="form-control mr-sm-2 col-md-4" [(ngModel)]="filter" name="filter" type="search" placeholder="Search" aria-label="Search">
     <button mat-icon-button  type="submit"><i class="fa fa-search" aria-hidden="true" style="font-size: 20px"></i></button>
   </form>
 </nav>
