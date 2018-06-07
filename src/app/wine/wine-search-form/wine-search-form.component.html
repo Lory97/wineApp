@@ -19,3 +19,10 @@
   </form>
 </nav>
 </mat-toolbar>
+<div *ngIf="filter" class="search-results">
+
+  <div *ngIf="nb_result > 0 then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock> <div class="name">{{nb_result}} vin(s) trouvé(s)</div></ng-template>
+  <ng-template #elseBlock> <div class="name">Aucun résultat</div></ng-template>
+
+</div>

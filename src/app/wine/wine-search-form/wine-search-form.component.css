@@ -8,3 +8,22 @@ a.navbar-brand:hover{
        Every toolbar row uses a flexbox row layout. */
     flex: 1 1 auto;
   }
+
+  .search-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(250, 250, 250);
+  width: auto;
+  max-height: 95vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 5;
+  background-color: rgb(51, 51, 51);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px 0px;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 68px 32px 0px;
+  }

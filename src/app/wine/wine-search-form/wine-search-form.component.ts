@@ -15,6 +15,7 @@ export class WineSearchFormComponent implements OnInit {
    private _sorting: string;
    skipValue: number;
    limitValue: number;
+   nb_result : number;
 
 
   constructor(private wineApiService : WineApiService) {
@@ -22,6 +23,18 @@ export class WineSearchFormComponent implements OnInit {
    }
 
   ngOnInit() {
+
+    this.wineApiService.search$.subscribe(
+      data =>{
+        if(data.length > 0){
+          this.nb_result = data.length;
+        }else{
+          console.log('no term in search, load initial wines list')
+          this.nb_result = 0;
+        }
+      }
+
+    )
   }
 
 

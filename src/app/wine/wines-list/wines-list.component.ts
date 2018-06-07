@@ -2,7 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 import { WineApiService, WinesQueryResponse } from '../wine-api.service';
 import { Wine } from '../wine';
 import { WineItemDialogComponent } from '../wine-item';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA, PageEvent} from '@angular/material';
 
 @Component({
   selector: 'app-wines-list',
@@ -12,16 +12,17 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 export class WinesListComponent implements OnInit {
 
   wines:Array<Wine>;
-  loading = false;
-  total = 0;
-  page = 1;
-  limit = 10;
+  // MatPaginator Inputs
+  length = 0;
+  pageSize = 10;
+  pageSizeOptions = [5, 10, 25, 100];
+
+   // MatPaginator Output
+   pageEvent: PageEvent;
 
   constructor(private wineApiService : WineApiService, public dialog: MatDialog) { }
 
   ngOnInit() {
-
-
 
     this.wineApiService.created$.subscribe(
       data => {
@@ -66,16 +67,17 @@ export class WinesListComponent implements OnInit {
     )
     this.wineApiService.getWines().subscribe(response => {
       this.wines = response;
+      this.length = this.wines.length;
       console.log(this.wines);
     });
     //this.winePagequery();
   }
 
-  winePagequery(){
-    this.wineApiService.query(null,null,null,this.limit).subscribe((response:WinesQueryResponse) => {
-      this.wines = response.items; this.total = response.totalCount;
-    });
-  }
+  // winePagequery(){
+  //   this.wineApiService.query(null,null,null,this.limit).subscribe((response:WinesQueryResponse) => {
+  //     this.wines = response.items; this.length = response.totalCount;
+  //   });
+  // }
 
   getWineImage(wineID:number){
     return this.wineApiService.getImageSourceUrl(wineID);
@@ -107,19 +109,19 @@ export class WinesListComponent implements OnInit {
   }
 
 
-  goToPage(n: number): void {
-    this.page = n;
-    this.winePagequery();  }
+  // goToPage(n: number): void {
+  //   this.page = n;
+  //   this.winePagequery();  }
 
-  onNext(): void {
-    this.page++;
-    this.winePagequery();
-  }
+  // onNext(): void {
+  //   this.page++;
+  //   this.winePagequery();
+  // }
 
-  onPrev(): void {
-    this.page--;
-    this.winePagequery();
-  }
+  // onPrev(): void {
+  //   this.page--;
+  //   this.winePagequery();
+  // }
 
 
   

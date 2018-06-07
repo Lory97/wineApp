@@ -9,6 +9,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -64,6 +65,7 @@ const appRoutes: Routes = [
     MatToolbarModule,
     MatIconModule,
     MatAutocompleteModule,
+    MatPaginatorModule,
     RouterModule.forRoot(appRoutes)
   ],
   entryComponents: [WineItemDialogComponent],
