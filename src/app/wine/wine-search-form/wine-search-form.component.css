@@ -17,7 +17,7 @@ a.navbar-brand:hover{
   width: auto;
   max-height: 95vh;
   position: fixed;
-  top: 0px;
+  top: 5px;
   left: 0px;
   right: 0px;
   z-index: 5;
@@ -26,4 +26,9 @@ a.navbar-brand:hover{
   box-sizing: border-box;
   overflow: auto;
   padding: 68px 32px 0px;
+  transition: visibility 0.3s, opacity 0.5s linear;
   }
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 75px;
+}

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { WineApiService } from '../wine-api.service';
 import { Wine } from '../wine';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-wine-search-form',
@@ -16,6 +17,10 @@ export class WineSearchFormComponent implements OnInit {
    skipValue: number;
    limitValue: number;
    nb_result : number;
+   activeSearch = false;
+   inactivityTimeout :any;
+
+
 
 
   constructor(private wineApiService : WineApiService) {
@@ -38,8 +43,15 @@ export class WineSearchFormComponent implements OnInit {
   }
 
 
+  resetSearch(){
+    this.activeSearch = false;
+    this._filter = '';
+    this._filters[0] = `name:${this._filter}`;
+    this.update();
+  }
+
+
   set sorting(sorting: string) {
-    console.log(sorting);
     this._sorting = sorting;
     this.update();
   }
@@ -47,10 +59,23 @@ export class WineSearchFormComponent implements OnInit {
     return this._sorting;
   }
 
+
+  setInputValue(){
+    clearTimeout(this.inactivityTimeout);
+    this.inactivityTimeout = setTimeout(()=>{
+      console.log(this._filter);
+      console.log('500ms timeout');
+      this.update();
+    },500);
+  }
+
   set filter(filter: string) {
-    this._filter = filter;
-    this._filters[0] = `name:${filter}`;
-    this.update();
+
+      this._filter = filter;
+      this._filters[0] = `name:${filter}`;
+      if(this._filter) this.activeSearch = true;
+      else this.activeSearch = false;
+      //this.update();
   }
 
   get filter() {
@@ -62,19 +87,6 @@ export class WineSearchFormComponent implements OnInit {
     this.wineApiService.query(this._filters, this._sorting, this.skipValue, this.limitValue).subscribe(
       response => {this.result = response.items; console.log(this.result);}
     );
-  }
-
-
-  searchWine(searchData){
-    let terms;
-    if(searchData){
-      if(searchData.term){
-        terms = searchData.term.split(" ");
-        //console.log(terms);
-        this.result = this.wineApiService.searchWine(terms);
-        //console.log(this.result);
-      }
-    }
   }
 
 }

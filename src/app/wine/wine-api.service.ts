@@ -3,6 +3,8 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Wine } from './wine';
 import { Observable, Subject } from 'rxjs';
 import { filter, catchError, tap, map } from 'rxjs/operators';
+import { MatDialog, MatDialogRef } from '@angular/material';
+import { LoadingComponent } from '../loading/loading.component';
 
 const PARAM_NAME_SKIP = 'skip';
 const PARAM_NAME_LIMIT = 'limit';
@@ -24,16 +26,34 @@ export class WineApiService {
   public search$ : Subject<Array<Wine>> = new Subject<Array<Wine>>();
   public updated$ : Subject<Wine> = new Subject<Wine>();
   private wines : Array<Wine>;
+  private _dialogRef: MatDialogRef<LoadingComponent>;
   
 
 
-  constructor(private http : HttpClient) {}
+  constructor(private http : HttpClient, public dialog: MatDialog) {}
+
+
+  private openDialog() {
+    this._dialogRef = this.dialog.open(LoadingComponent, {
+      height: '150px',
+      width: '150px',
+    });
+    console.log('open spiner!');
+  }
+
+  private closeDialog() {
+    this._dialogRef.close();
+    console.log('close spiner!');
+  }
+
 
   getWines() : Observable<Wine[]>{
+    //this.openDialog();
     return this.http.get<Wine[]>(`${BASE_API_URL}/${this.winesUrl}`)
     .pipe(
       map(data => { 
         this.wines = data['items']; 
+        //this.closeDialog();
         return data['items'];
     }),
       catchError(this.handleError)
@@ -45,8 +65,10 @@ export class WineApiService {
   }
 
   public get(wineId: number): Observable<Wine> {
+    this.openDialog();
     return this.http.get<Wine>(`${BASE_API_URL}/${this.winesUrl}/${wineId}`)
     .pipe(
+      tap(()=> this.closeDialog()),
       catchError(this.handleError)
     )
   }
@@ -89,32 +111,30 @@ export class WineApiService {
   };
 
 
-  public searchWine(terms:Array<string>):Array<Wine>{
-    let filtredWine:Array<Wine> = new Array<Wine>();
+  // public searchWine(terms:Array<string>):Array<Wine>{
+  //   let filtredWine:Array<Wine> = new Array<Wine>();
 
-    terms.forEach(
-       term =>{ 
-        let tmpList = this.wines.filter( wine => wine.name.toLowerCase().includes(term.toLowerCase()) || wine.description.toLowerCase().includes(term.toLowerCase()) )
+  //   terms.forEach(
+  //      term =>{ 
+  //       let tmpList = this.wines.filter( wine => wine.name.toLowerCase().includes(term.toLowerCase()) || wine.description.toLowerCase().includes(term.toLowerCase()) )
 
-        //let a = new Set(filtredWine);
-        let b = new Set(tmpList);
-        let intersection = new Set(
-            [...filtredWine].filter(x => b.has(x)));
-        //console.log(intersection);
-        if(intersection.size == 0) filtredWine = [...filtredWine,...tmpList]  
-       })
+  //       //let a = new Set(filtredWine);
+  //       let b = new Set(tmpList);
+  //       let intersection = new Set(
+  //           [...filtredWine].filter(x => b.has(x)));
+  //       //console.log(intersection);
+  //       if(intersection.size == 0) filtredWine = [...filtredWine,...tmpList]  
+  //      })
     
-    this.search$.next(filtredWine);
-    return filtredWine;
-  }
+  //   this.search$.next(filtredWine);
+  //   return filtredWine;
+  // }
 
   /**
    * query on server
    */
   public query(filterParams?: Array<string>, sortParams?: string, skipValue?: number, limitValue?: number): Observable<WinesQueryResponse> {
     const options = {params:{}};
-
-    //this.openDialog();
 
     if (filterParams && (filterParams.length > 0)) { 
       let filterForQuery = '';
@@ -125,13 +145,13 @@ export class WineApiService {
         filterForQuery += filter;
       });
 
-      console.log(filterForQuery);
+      //console.log(filterForQuery);
       
       options.params[PARAM_NAME_FILTER] = filterForQuery ?  new HttpParams().set(PARAM_NAME_FILTER, filterForQuery) : {};
 
       //options.params[PARAM_NAME_FILTER] = filterForQuery;
 
-      console.log(`WineManagerServiceImpl : ${options.params}`);
+      //console.log(`WineManagerServiceImpl : ${options.params}`);
     }
 
     if (sortParams) {
@@ -149,11 +169,12 @@ export class WineApiService {
       // this.logger.log(`WineManagerServiceImpl : ${PARAM_NAME_LIMIT}=${limitValue}`);
     }
 
-    console.log(options);
+    //console.log(options);
 
+    this.openDialog();
     return this.http.get(`${BASE_API_URL}/${this.winesUrl}`, options)
     .pipe(
-       tap((response : WinesQueryResponse) => this.search$.next(response.items)),
+       tap((response : WinesQueryResponse) => {this.search$.next(response.items);this.closeDialog();}),
        catchError(this.handleError)
      )
   };

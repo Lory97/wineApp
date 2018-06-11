@@ -10,6 +10,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -23,6 +24,7 @@ import { WineAddFormComponent } from './wine/wine-add-form/wine-add-form.compone
 import { WineSearchFormComponent } from './wine/wine-search-form/wine-search-form.component';
 import { WineEditFormComponent } from './wine/wine-edit-form/wine-edit-form.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { LoadingComponent } from './loading/loading.component';
 
 
 const appRoutes: Routes = [
@@ -48,6 +50,7 @@ const appRoutes: Routes = [
     WineItemPageComponent,
     WineItemDialogComponent,
     PaginationComponent,
+    LoadingComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,9 +69,10 @@ const appRoutes: Routes = [
     MatIconModule,
     MatAutocompleteModule,
     MatPaginatorModule,
+    MatProgressSpinnerModule,
     RouterModule.forRoot(appRoutes)
   ],
-  entryComponents: [WineItemDialogComponent],
+  entryComponents: [WineItemDialogComponent,LoadingComponent],
   providers: [WineApiService],
   bootstrap: [AppComponent]
 })

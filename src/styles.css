@@ -9,5 +9,10 @@ body{
 }
 
 .cdk-overlay-pane{
-    top : 70px !important;
+    top: 89px !important;
+}
+
+.custom-dialog-container .mat-dialog-container{
+    margin:  0 auto;
+    background-color: transparent;
 }

@@ -1,6 +1,6 @@
 <mat-toolbar color="primary" class="fixed-top">
 <nav class="navbar col-md-12">
-  <form #searchForm="ngForm" class="form-inline" (ngSubmit)="searchWine(searchForm.value)">
+  <form #searchForm="ngForm" class="form-inline" (ngSubmit)=" update()">
       <a routerLink="/" class="navbar-brand">Ma Cave</a>
       <span class="example-fill-remaining-space"></span>
       <mat-select placeholder="Trier" [(ngModel)]="sorting" name="sorting" class="col-md-2 ">
@@ -14,8 +14,11 @@
           <mat-option value="rating:-1" i18n>Trier par Note(décroissant)</mat-option>
           <mat-option value="goodDealRatio:-1" i18n>Good deal ratio</mat-option>
         </mat-select>
-    <input class="form-control mr-sm-2 col-md-4" [(ngModel)]="filter" name="filter" type="search" placeholder="Search" aria-label="Search">
-    <button mat-icon-button  type="submit"><i class="fa fa-search" aria-hidden="true" style="font-size: 20px"></i></button>
+        <mat-form-field>
+            <input class="mr-sm-2 col-md-10" matInput [(ngModel)]="filter" (keyup)="setInputValue()" name="filter" type="search" placeholder="Search" aria-label="Search">
+            <mat-icon matSuffix color="accent" (click)="resetSearch()"><i *ngIf ="activeSearch" class="fa fa-times" style="font-size: 14px; cursor: pointer;" aria-hidden="true"></i></mat-icon>
+        </mat-form-field>
+        <!-- <button mat-icon-button  type="submit"><i class="fa fa-search" aria-hidden="true" style="font-size: 20px"></i></button> -->
   </form>
 </nav>
 </mat-toolbar>
